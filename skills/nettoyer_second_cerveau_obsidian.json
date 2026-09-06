@@ -1,0 +1,22 @@
+{
+  "id": "nettoyer_second_cerveau_obsidian",
+  "nom": "Nettoyage et structuration du Second Cerveau Obsidian sans perte d'historique",
+  "declencheurs": [
+    "nettoyer obsidian",
+    "ranger le cerveau",
+    "enlever les pubs",
+    "garder les erreurs",
+    "memoire historique"
+  ],
+  "description": "Nettoyer les bruits et publicités (comme les spams Skyscanner) du vault Obsidian tout en préservant l'historique des discussions, les choix stratégiques et les erreurs passées.",
+  "recette_etapes": [
+    "Étape 1: Synchroniser le vault Obsidian pour analyser l'état actuel des notes et passages.",
+    "Étape 2: Identifier et supprimer les contenus non pertinents (publicités, alertes de prix automatisées, spams marketing).",
+    "Étape 3: Conserver et structurer les données critiques (discussions importantes, décisions stratégiques, erreurs et apprentissages).",
+    "Étape 4: Mettre à jour ou créer un fichier de référence central (ex: Memoire_Historique_Apprentissages_Erreurs.md) pour consigner les règles de filtrage."
+  ],
+  "conditions_succes": "Le vault Obsidian est nettoyé des bruits publicitaires, les informations stratégiques et l'historique des erreurs sont préservés et documentés.",
+  "date_creation": "2026-08-24T00:00:51.990538",
+  "derniere_utilisation": "2026-08-24T00:00:51.990538",
+  "succes_compteur": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "integration_agent_botterie_bespoke",
+  "nom": "Intégration et Spécialisation d'un Agent en Botterie Bespoke",
+  "declencheurs": [
+    "botterie bespoke",
+    "agent de laura",
+    "chaussures sur mesure",
+    "artisanat soulier",
+    "prise de mesures chaussures"
+  ],
+  "description": "Procédure pour documenter et assigner à un agent (Alba) des compétences de pointe dans le domaine de la botterie bespoke (sur-mesure) et formaliser sa relation d'agence.",
+  "recette_etapes": [
+    "Étape 1: Identifier le rôle et le rattachement de l'agent (ex: Alba pour Laura Puntillo).",
+    "Étape 2: Effectuer une recherche approfondie sur les techniques de la botterie bespoke (mesures, coupe, montage, savoir-faire artisanal).",
+    "Étape 3: Enregistrer les relations contextuelles et les compétences dans le graphe de connaissances (outil enregistrer_relation_graphe)."
+  ],
+  "conditions_succes": "L'agent est officiellement rattaché à son mandant et ses compétences techniques en botterie bespoke sont documentées et intégrées au système.",
+  "date_creation": "2026-08-25T02:11:50.030735",
+  "derniere_utilisation": "2026-08-25T02:11:50.030735",
+  "succes_compteur": 1
+}

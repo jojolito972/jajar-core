@@ -1,0 +1,20 @@
+{
+  "id": "extraction_et_analyse_emails_emlx_obsidian",
+  "nom": "Extraction et Analyse Sémantique d'Emails EMLX vers Obsidian",
+  "declencheurs": [
+    "analyser fichier emlx",
+    "extraire mails importants",
+    "analyse sémantique emails",
+    "synchroniser obsidian"
+  ],
+  "description": "Permet d'extraire les emails importants d'un fichier source au format EMLX, d'effectuer une analyse sémantique et dialectique, puis de structurer et synchroniser les résultats dans le second cerveau Obsidian.",
+  "recette_etapes": [
+    "Étape 1: Traiter et filtrer le fichier source d'emails (ex: format .emlx) en ciblant les critères pertinents (ex: année, volume, importance stratégique).",
+    "Étape 2: Générer une note de synthèse structurée dans Obsidian contenant les analyses et connexions sémantiques.",
+    "Étape 3: Synchroniser et vectoriser le vault Obsidian pour intégrer les nouvelles données dans le second cerveau."
+  ],
+  "conditions_succes": "Les emails importants ont été filtrés, analysés sémantiquement, convertis en notes structurées dans Obsidian et le vault est synchronisé avec succès.",
+  "date_creation": "2026-08-23T18:20:49.442148",
+  "derniere_utilisation": "2026-08-23T18:20:49.442148",
+  "succes_compteur": 1
+}

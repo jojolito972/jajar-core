@@ -1,0 +1,21 @@
+{
+  "id": "indexation_source_video_technologique",
+  "nom": "Indexation de source vidéo technologique",
+  "declencheurs": [
+    "résumer vidéo",
+    "indexer plateforme ia",
+    "nvidia build",
+    "documentation technique"
+  ],
+  "description": "Extraire les informations clés d'une source vidéo technologique et créer un fichier de synthèse structuré dans le second cerveau avec implications stratégiques.",
+  "recette_etapes": [
+    "Étape 1: Analyser la transcription ou la description de la source vidéo pour identifier la plateforme, l'offre et les technologies clés.",
+    "Étape 2: Structurer les informations sous forme de résumé (plateforme, proposition, modèles/technologies).",
+    "Étape 3: Déduire l'implication stratégique pour les projets ou le studio.",
+    "Étape 4: Écrire le contenu au format Markdown dans le dossier cible du second cerveau via l'outil d'écriture de fichier."
+  ],
+  "conditions_succes": "Le fichier Markdown est correctement rédigé avec un résumé clair et des implications stratégiques exploitables dans le répertoire cible.",
+  "date_creation": "2026-08-29T17:54:34.558634",
+  "derniere_utilisation": "2026-08-29T17:54:34.558634",
+  "succes_compteur": 1
+}

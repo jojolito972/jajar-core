@@ -1,0 +1,18 @@
+{
+  "id": "bascule_modele_kimi",
+  "nom": "Bascule vers le modèle LLM Kimi",
+  "declencheurs": [
+    "bascule sur kimi",
+    "switch to kimi",
+    "active kimi"
+  ],
+  "description": "Permet de basculer le système pour utiliser le modèle de langage Kimi via un script de configuration.",
+  "recette_etapes": [
+    "Étape 1: Identifier la commande de bascule avec le paramètre 'kimi'.",
+    "Étape 2: Exécuter le script de bascule de LLM (ex: python3 /Users/denmac/switch_llm.py kimi)."
+  ],
+  "conditions_succes": "Le script s'exécute sans erreur et le modèle actif est mis à jour vers Kimi.",
+  "date_creation": "2026-08-29T17:13:34.753270",
+  "derniere_utilisation": "2026-08-29T17:13:34.753270",
+  "succes_compteur": 1
+}

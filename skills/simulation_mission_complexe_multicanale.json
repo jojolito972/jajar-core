@@ -1,0 +1,21 @@
+{
+  "id": "simulation_mission_complexe_multicanale",
+  "nom": "Simulation et Restitution de Mission Complexe Multicanale",
+  "declencheurs": [
+    "simuler mission",
+    "impressionne moi",
+    "découvrir tes talents",
+    "envoie sur telegram"
+  ],
+  "description": "Exécuter une mission complexe combinant recherche approfondie, génération visuelle par IA, restitution sur application de messagerie et orchestration d'un débat d'experts pour démontrer l'étendue des capacités opérationnelles.",
+  "recette_etapes": [
+    "Étape 1: Lancer une recherche approfondie en arrière-plan sur un sujet futuriste ou technique complexe (ex: biomatériaux et autonomie énergétique).",
+    "Étape 2: Générer un support visuel (image haute résolution) illustrant le concept exploré à l'aide d'un prompt artistique et technique précis.",
+    "Étape 3: Transmettre automatiquement le livrable visuel sur un canal externe (Telegram) pour valider l'interaction multi-plateforme.",
+    "Étape 4: Animer un débat contradictoire multi-agents pour analyser la viabilité globale (architecturale, énergétique, économique) du projet simulé."
+  ],
+  "conditions_succes": "La recherche est documentée, le visuel est généré et transmis avec succès, et une synthèse critique sous forme de débat est produite.",
+  "date_creation": "2026-08-24T14:51:04.411233",
+  "derniere_utilisation": "2026-08-24T14:51:04.411233",
+  "succes_compteur": 1
+}

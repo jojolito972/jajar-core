@@ -1,0 +1,24 @@
+{
+  "id": "instanciation_crewai_multitool",
+  "nom": "Instanciation d'un Crew CrewAI avec Outils Multi-formats",
+  "declencheurs": [
+    "crewai",
+    "agent task crew",
+    "analyse multiformat",
+    "outils crewai"
+  ],
+  "description": "Créer et valider un script Python initialisant une structure CrewAI complète avec des agents, des tâches séquentielles et des outils de recherche web et documentaires (CSV, DOCX).",
+  "recette_etapes": [
+    "Étape 1: Configurer une clé API factice ou valide dans l'environnement (ex: OPENAI_API_KEY).",
+    "Étape 2: Importer les modules nécessaires de CrewAI (Agent, Task, Crew, Process) et les outils spécifiques (ScrapeWebsiteTool, CSVSearchTool, etc.).",
+    "Étape 3: Instancier les outils requis.",
+    "Étape 4: Définir l'Agent avec son rôle, son objectif, son historique et ses outils.",
+    "Étape 5: Définir la Task en associant sa description, son résultat attendu et l'agent assigné.",
+    "Étape 6: Assembler l'ensemble dans un objet Crew avec un processus séquentiel.",
+    "Étape 7: Tester l'exécution du script via l'environnement virtuel pour valider l'absence d'erreurs de syntaxe ou de configuration."
+  ],
+  "conditions_succes": "Le script Python s'exécute sans erreur et affiche le message de succès de l'instanciation de la structure CrewAI.",
+  "date_creation": "2026-08-24T13:40:53.968778",
+  "derniere_utilisation": "2026-08-24T13:40:53.968778",
+  "succes_compteur": 1
+}

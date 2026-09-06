@@ -1,0 +1,20 @@
+{
+  "id": "analyse_securite_hote_ssh",
+  "nom": "Analyse de sécurité et recherche de malwares sur hôte distant",
+  "declencheurs": [
+    "analyse profonde",
+    "risques de virus",
+    "malware",
+    "securite ssh"
+  ],
+  "description": "Analyser un hôte distant via SSH pour inspecter les processus actifs, les connexions réseau et les tâches cron à la recherche d'activités suspectes.",
+  "recette_etapes": [
+    "Étape 1: Se connecter à l'hôte distant via SSH et exécuter une vérification des processus actifs triés par utilisation CPU.",
+    "Étape 2: Inspecter les connexions réseau et les ports ouverts (ss ou netstat).",
+    "Étape 3: Vérifier l'existence de tâches cron planifiées pour l'utilisateur."
+  ],
+  "conditions_succes": "Les commandes d'inspection système et réseau ont été exécutées avec succès sur l'hôte distant.",
+  "date_creation": "2026-08-24T00:47:23.234232",
+  "derniere_utilisation": "2026-08-24T00:47:23.234232",
+  "succes_compteur": 1
+}

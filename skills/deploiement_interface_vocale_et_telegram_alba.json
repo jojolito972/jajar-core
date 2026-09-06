@@ -1,0 +1,22 @@
+{
+  "id": "deploiement_interface_vocale_et_telegram_alba",
+  "nom": "Déploiement d'Interface Vocale Mains Libres et Telegram pour Alba",
+  "declencheurs": [
+    "alba telegram",
+    "kit main libre alba",
+    "assistant vocal apple alba",
+    "discussion telephone alba"
+  ],
+  "description": "Procédure pour structurer et lancer les scripts d'interaction vocale (mains libres) et textuelle (Telegram) permettant à l'utilisateur de piloter l'agent Alba avec délégation de tâches.",
+  "recette_etapes": [
+    "Étape 1: Analyser les scripts existants de communication vocale et les outils d'artisan d'Alba pour comprendre l'architecture actuelle.",
+    "Étape 2: Configurer les déclencheurs vocaux et l'intégration des écouteurs/système audio (Apple).",
+    "Étape 3: Valider la passerelle Telegram pour permettre à l'utilisateur de dialoguer par message textuel ou vocal avec Alba.",
+    "Étape 4: S'assurer que le système de délégation aux autres agents est actif dans les outils d'Alba.",
+    "Étape 5: Lancer les scripts de démarrage via les commandes shell appropriées."
+  ],
+  "conditions_succes": "Les scripts de lancement vocal et Telegram s'exécutent sans erreur et permettent une communication fluide avec l'agent Alba.",
+  "date_creation": "2026-08-25T02:17:09.923980",
+  "derniere_utilisation": "2026-08-25T02:17:09.923980",
+  "succes_compteur": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "test_notification_macos",
+  "nom": "Test de Notification macOS",
+  "declencheurs": [
+    "test",
+    "notification macos",
+    "verifier liaison"
+  ],
+  "description": "Envoyer une notification de test sur macOS pour valider la communication et le contrôle interactif.",
+  "recette_etapes": [
+    "Étape 1: Identifier le message et le titre adaptés au contexte de test.",
+    "Étape 2: Appeler l'outil 'envoyer_notification_macos' avec les arguments 'titre' et 'message'."
+  ],
+  "conditions_succes": "La notification est transmise et affichée avec succès sur le bureau macOS.",
+  "date_creation": "2026-08-25T18:26:26.322998",
+  "derniere_utilisation": "2026-08-25T18:26:26.322998",
+  "succes_compteur": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ajouter_module_repli_nvidia_nim",
+  "nom": "Ajouter un module de repli (fallback) NVIDIA NIM",
+  "declencheurs": [
+    "nvidia nim",
+    "fallback",
+    "module de repli",
+    "studio",
+    "haute disponibilité ia"
+  ],
+  "description": "Créer un gestionnaire de repli programmatique utilisant l'API OpenAI compatible de NVIDIA NIM en cas d'échec du fournisseur principal.",
+  "recette_etapes": [
+    "Étape 1: Importer les dépendances nécessaires (os, client OpenAI compatible).",
+    "Étape 2: Définir une classe de gestion (ex: NIMFallbackManager) initialisant un client pointant sur 'https://integrate.api.nvidia.com/v1' avec la clé API d'environnement.",
+    "Étape 3: Implémenter une méthode d'exécution enveloppant l'appel principal dans un bloc try/except.",
+    "Étape 4: Configurer le basculement automatique (fallback) vers le modèle NVIDIA NIM désigné en cas d'exception sur le client principal."
+  ],
+  "conditions_succes": "Le module de repli est écrit dans un fichier Python dédié et gère la transition transparente du fournisseur principal vers l'endpoint NVIDIA NIM.",
+  "date_creation": "2026-08-29T17:55:45.282584",
+  "derniere_utilisation": "2026-08-29T17:55:45.282584",
+  "succes_compteur": 1
+}

@@ -1,0 +1,19 @@
+{
+  "id": "verifier_cles_api_env",
+  "nom": "Vérification et audit des clés API dans un fichier .env",
+  "declencheurs": [
+    "verifier api key",
+    "audit .env",
+    "tester cle huggingface",
+    "verifier variables environnement"
+  ],
+  "description": "Vérifie l'existence et la validité des clés API et tokens sensibles stockés dans un fichier de configuration .env en utilisant un script de test Python.",
+  "recette_etapes": [
+    "Étape 1: Localiser et inspecter le fichier .env pour identifier les variables liées aux clés (API_KEY, KEY, TOKEN).",
+    "Étape 2: Exécuter un test programmatique en Python chargeant le fichier .env via python-dotenv pour valider la présence effective des clés requises."
+  ],
+  "conditions_succes": "Le script confirme avec succès le chargement et la présence des variables d'environnement cibles.",
+  "date_creation": "2026-08-24T18:19:22.114313",
+  "derniere_utilisation": "2026-08-24T18:19:22.114313",
+  "succes_compteur": 1
+}

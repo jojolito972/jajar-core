@@ -1,0 +1,21 @@
+{
+  "id": "audit_ecosysteme_reseau_securite",
+  "nom": "Audit de l'Écosystème Réseau et Sécurité",
+  "declencheurs": [
+    "audit réseau",
+    "audit sécurité",
+    "analyser écosystème réseau",
+    "scanner réseau local",
+    "audit de ton écosystème"
+  ],
+  "description": "Effectuer une cartographie et un contrôle de sécurité de l'écosystème réseau local afin de recenser les hôtes et services actifs.",
+  "recette_etapes": [
+    "Étape 1: Exécuter l'outil scanner_reseau_local pour découvrir la topologie et les appareils connectés.",
+    "Étape 2: Analyser la liste des hôtes détectés, leurs adresses IP et ports/services ouverts.",
+    "Étape 3: Formuler une synthèse de l'audit réseau et identifier les éventuels vecteurs d'insécurité."
+  ],
+  "conditions_succes": "Le réseau local est scanné avec succès et la cartographie des hôtes ainsi que l'évaluation de sécurité sont restituées.",
+  "date_creation": "2026-08-24T11:40:52.195675",
+  "derniere_utilisation": "2026-08-24T11:40:52.195675",
+  "succes_compteur": 1
+}

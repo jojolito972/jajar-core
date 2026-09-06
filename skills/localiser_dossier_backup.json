@@ -1,0 +1,19 @@
+{
+  "id": "localiser_dossier_backup",
+  "nom": "Localisation exacte d'un dossier de sauvegarde",
+  "declencheurs": [
+    "où est mon dossier backup",
+    "trouver sauvegarde",
+    "emplacement backup"
+  ],
+  "description": "Retrouver et lister le chemin exact d'une archive de sauvegarde récemment générée sur le système de fichiers.",
+  "recette_etapes": [
+    "Identifier le répertoire racine des sauvegardes (ex: /Users/username/backups_studio/)",
+    "Exécuter une commande shell pour lister le contenu du répertoire parent et du dossier spécifique de backup",
+    "Confirmer le chemin absolu et la présence des fichiers"
+  ],
+  "conditions_succes": "Le chemin absolu du dossier de backup est clairement identifié et affiché à l'utilisateur.",
+  "date_creation": "2026-09-02T18:33:23.660456",
+  "derniere_utilisation": "2026-09-02T18:33:23.660456",
+  "succes_compteur": 1
+}

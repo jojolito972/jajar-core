@@ -1,0 +1,20 @@
+{
+  "id": "gestion_attente_feedback_utilisateur",
+  "nom": "Gestion de l'attente et feedback utilisateur en arrière-plan",
+  "declencheurs": [
+    "tu bosses",
+    "je ne vois rien bouger",
+    "allez au boulot",
+    "statut avancement"
+  ],
+  "description": "Rassurer l'utilisateur sur l'exécution des tâches en arrière-plan en combinant des notifications système macOS, des actions concrètes (scripts, fichiers) et une validation visuelle finale explicite.",
+  "recette_etapes": [
+    "Étape 1: Envoyer une notification macOS immédiate pour confirmer le lancement des scripts en cours.",
+    "Étape 2: Exécuter les actions techniques de fond (copie de plist, chargement launchctl, écriture de code métier).",
+    "Étape 3: Afficher une boîte de dialogue AppleScript récapitulative pour valider la fin des opérations et rassurer l'utilisateur."
+  ],
+  "conditions_succes": "L'utilisateur est informé en temps réel du démarrage et de la fin des tâches via des canaux natifs macOS (notifications et boîtes de dialogue).",
+  "date_creation": "2026-08-25T03:00:35.573279",
+  "derniere_utilisation": "2026-08-25T03:00:35.573279",
+  "succes_compteur": 1
+}

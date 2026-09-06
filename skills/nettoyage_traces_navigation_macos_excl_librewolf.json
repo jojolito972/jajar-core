@@ -1,0 +1,24 @@
+{
+  "id": "nettoyage_traces_navigation_macos_excl_librewolf",
+  "nom": "Nettoyage approfondi des traces de navigation macOS (hors LibreWolf)",
+  "declencheurs": [
+    "nettoyer navigation",
+    "effacer traces internet",
+    "supprimer historique",
+    "ménage navigateur",
+    "enlever traces log"
+  ],
+  "description": "Supprime l'historique, les caches, les logs et les états d'application pour Chrome, Safari et Firefox sur macOS via SSH, tout en excluant spécifiquement LibreWolf.",
+  "recette_etapes": [
+    "Étape 1: Identifier les chemins de stockage des navigateurs cibles (Chrome, Safari, Firefox).",
+    "Étape 2: Supprimer les répertoires de cache et d'historique dans ~/Library/Caches et ~/Library/Application Support.",
+    "Étape 3: Supprimer les fichiers de session et d'état dans ~/Library/Saved Application State.",
+    "Étape 4: Purger les logs applicatifs dans ~/Library/Logs.",
+    "Étape 5: Vider le cache DNS système avec la commande dscacheutil -flushcache.",
+    "Étape 6: Vérifier que les répertoires de LibreWolf n'ont pas été impactés."
+  ],
+  "conditions_succes": "Les répertoires de données de Chrome, Safari et Firefox sont supprimés et le cache DNS est vidé, sans altération des données de LibreWolf.",
+  "date_creation": "2026-08-24T02:24:57.380803",
+  "derniere_utilisation": "2026-08-24T02:24:57.380803",
+  "succes_compteur": 1
+}

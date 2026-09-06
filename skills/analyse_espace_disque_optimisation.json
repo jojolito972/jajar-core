@@ -1,0 +1,21 @@
+{
+  "id": "analyse_espace_disque_optimisation",
+  "nom": "Analyse et optimisation de l'espace disque",
+  "declencheurs": [
+    "scan de mon disque dur",
+    "gagner de l'espace disque",
+    "nettoyer le stockage",
+    "dossiers volumineux"
+  ],
+  "description": "Analyser l'utilisation du disque dur et identifier les dossiers les plus volumineux pour proposer des pistes de nettoyage et d'optimisation de l'espace.",
+  "recette_etapes": [
+    "Étape 1: Vérifier l'espace disque global disponible à l'aide de la commande df -h.",
+    "Étape 2: Lister les répertoires principaux les plus volumineux dans le dossier utilisateur avec la commande du -h -d 1 triée par taille décroissante.",
+    "Étape 3: Investiguer les sous-dossiers spécifiques connus pour accumuler des données (ex: Library, .cache, Téléchargements).",
+    "Étape 4: Synthétiser les résultats pour l'utilisateur en identifiant les cibles potentielles de nettoyage (caches, fichiers temporaires, gros fichiers inactifs)."
+  ],
+  "conditions_succes": "Les répertoires les plus volumineux sont identifiés avec précision et une liste claire des pistes d'optimisation est fournie à l'utilisateur.",
+  "date_creation": "2026-08-24T12:04:47.207735",
+  "derniere_utilisation": "2026-08-24T12:04:47.207735",
+  "succes_compteur": 1
+}

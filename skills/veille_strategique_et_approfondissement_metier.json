@@ -1,0 +1,20 @@
+{
+  "id": "veille_strategique_et_approfondissement_metier",
+  "nom": "Veille Stratégique et Approfondissement Métier",
+  "declencheurs": [
+    "tendances mode",
+    "dernieres tendances shoes",
+    "approfondir tes connaissances",
+    "veille metier"
+  ],
+  "description": "Analyser les dernières tendances sectorielles et approfondir les connaissances techniques ou artistiques du métier via une recherche web approfondie.",
+  "recette_etapes": [
+    "Étape 1: Identifier les axes de veille prioritaires (tendances actuelles, innovations, savoir-faire technique).",
+    "Étape 2: Lancer une recherche web approfondie avec des mots-clés ciblés sur le secteur visé.",
+    "Étape 3: Synthétiser les données récoltées dans un rapport d'analyse stratégique et technique structuré."
+  ],
+  "conditions_succes": "Un rapport complet intégrant les tendances de marché et les aspects techniques du métier a été généré à partir de sources fiables.",
+  "date_creation": "2026-08-23T23:35:01.630453",
+  "derniere_utilisation": "2026-08-23T23:35:01.630453",
+  "succes_compteur": 1
+}

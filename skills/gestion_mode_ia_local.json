@@ -1,0 +1,22 @@
+{
+  "id": "gestion_mode_ia_local",
+  "nom": "Gestion et bascule des modes IA local (Ollama)",
+  "declencheurs": [
+    "mode offline",
+    "mode online",
+    "moteur d'activité",
+    "ollama",
+    "modèle local",
+    "basculer mode"
+  ],
+  "description": "Permet de basculer l'exécution de l'IA entre un mode local (via Ollama en arrière-plan) et un mode online, tout en vérifiant les processus actifs.",
+  "recette_etapes": [
+    "Étape 1: Vérifier les processus actifs (ollama, llama, python) pour identifier l'état actuel du moteur.",
+    "Étape 2: Créer ou mettre à jour un script de gestion (ex: switch_mode.py) pour piloter l'activation ou la désactivation du modèle local.",
+    "Étape 3: Lancer le modèle en arrière-plan via la commande appropriée (ex: ollama run) ou le stopper selon le mode requis (offline/online)."
+  ],
+  "conditions_succes": "Le processus du modèle local est visible dans le moniteur d'activité / ps aux ou correctement arrêté selon le mode choisi.",
+  "date_creation": "2026-08-25T21:24:40.101532",
+  "derniere_utilisation": "2026-08-25T21:24:40.101532",
+  "succes_compteur": 1
+}

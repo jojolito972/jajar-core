@@ -1,0 +1,21 @@
+{
+  "id": "audit_reseau_connexion_internet",
+  "nom": "Audit et Cartographie des Points d'Accès Internet Locaux",
+  "declencheurs": [
+    "scanner mon reseaux",
+    "wifi bluetooth",
+    "porets d entrer",
+    "connection internet",
+    "audit reseau"
+  ],
+  "description": "Scanner les interfaces réseaux locales (Wi-Fi, Bluetooth, réseau local) pour identifier les points d'accès et passerelles disponibles.",
+  "recette_etapes": [
+    "Étape 1: Initialiser l'outil de scan réseau local (scanner_reseau_local).",
+    "Étape 2: Analyser les interfaces sans fil et filaires détectées pour identifier les SSID et les passerelles.",
+    "Étape 3: Évaluer les signaux et les portes d'entrée potentielles pour une connexion Internet."
+  ],
+  "conditions_succes": "Liste exhaustive des réseaux et points d'accès identifiés avec leurs statuts de connexion.",
+  "date_creation": "2026-08-29T17:18:39.253286",
+  "derniere_utilisation": "2026-08-29T17:18:39.253286",
+  "succes_compteur": 1
+}

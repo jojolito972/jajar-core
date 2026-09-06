@@ -1,0 +1,22 @@
+{
+  "id": "extraction_etat_lieux_projets",
+  "nom": "Extraction et consolidation de l'état des lieux des projets",
+  "declencheurs": [
+    "état des lieux",
+    "projets récents",
+    "second cerveau",
+    "carnets de notes",
+    "consolider projets"
+  ],
+  "description": "Extraire et consolider l'état des projets à partir des fichiers du second cerveau ou des carnets de notes pour fournir une vue d'ensemble actualisée.",
+  "recette_etapes": [
+    "Étape 1: Identifier la source des données dans le second cerveau (ex: dossier 01_Projets).",
+    "Étape 2: Lire les fichiers de notes ou de débats stratégiques récents via l'outil de lecture de fichiers.",
+    "Étape 3: Synthétiser les informations clés concernant l'avancement et l'état des différents projets.",
+    "Étape 4: Présenter un état des lieux consolidé et structuré à l'utilisateur."
+  ],
+  "conditions_succes": "Un rapport consolidé clair et basé sur les données réelles des fichiers source est généré et présenté à l'utilisateur.",
+  "date_creation": "2026-08-25T01:36:13.350792",
+  "derniere_utilisation": "2026-08-25T01:36:13.350792",
+  "succes_compteur": 1
+}

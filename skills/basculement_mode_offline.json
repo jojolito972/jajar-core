@@ -1,0 +1,19 @@
+{
+  "id": "basculement_mode_offline",
+  "nom": "Basculement vers le mode hors-ligne (offline)",
+  "declencheurs": [
+    "offline",
+    "mode hors-ligne",
+    "couper connexion",
+    "switch offline"
+  ],
+  "description": "Exécute un script système pour basculer l'environnement de travail ou l'application en mode hors-ligne.",
+  "recette_etapes": [
+    "Étape 1: Localiser le script de basculement de mode (/Users/denmac/switch_mode.py).",
+    "Étape 2: Exécuter la commande shell en passant l'argument 'offline'."
+  ],
+  "conditions_succes": "Le script de basculement s'est exécuté sans erreur de syntaxe ou d'exécution (code de retour 0).",
+  "date_creation": "2026-08-25T21:24:19.644384",
+  "derniere_utilisation": "2026-08-25T21:24:19.644384",
+  "succes_compteur": 1
+}

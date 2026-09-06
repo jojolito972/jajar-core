@@ -1,0 +1,19 @@
+{
+  "id": "verification_statut_generation",
+  "nom": "Vérification du Statut de Génération en Arrière-Plan",
+  "declencheurs": [
+    "statut de la génération",
+    "vérification des tâches",
+    "fin du traitement"
+  ],
+  "description": "Vérifier l'état d'avancement ou de fin d'une tâche de génération en arrière-plan à l'aide de l'outil de vérification dédié.",
+  "recette_etapes": [
+    "Étape 1: Identifier la nécessité de contrôler l'état d'un traitement asynchrone.",
+    "Étape 2: Appeler l'outil 'verifier_taches_arriere_plan' sans argument spécifique pour récupérer l'état global des tâches.",
+    "Étape 3: Analyser le résultat retourné pour confirmer la fin effective du traitement."
+  ],
+  "conditions_succes": "Le statut de la tâche est explicitement confirmé comme terminé ou réussi.",
+  "date_creation": "2026-08-25T18:30:11.672287",
+  "derniere_utilisation": "2026-08-25T18:30:11.672287",
+  "succes_compteur": 1
+}

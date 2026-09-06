@@ -1,0 +1,21 @@
+{
+  "id": "diagnostic_taches_arriere_plan",
+  "nom": "Diagnostic des processus et tâches en arrière-plan",
+  "declencheurs": [
+    "il mouline",
+    "pas de reponse",
+    "que fait jajar",
+    "verifier taches",
+    "bloqué"
+  ],
+  "description": "Permet d'inspecter l'état des processus ou des tâches en arrière-plan pour identifier ce qui est en cours de traitement lorsque le système semble inactif ou bloqué.",
+  "recette_etapes": [
+    "Étape 1: Identifier le signal de blocage ou d'attente prolongée de l'utilisateur.",
+    "Étape 2: Appeler l'outil 'verifier_taches_arriere_plan' pour lister les opérations en cours.",
+    "Étape 3: Analyser le retour de l'outil et restituer clairement à l'utilisateur l'état actuel des tâches."
+  ],
+  "conditions_succes": "Les tâches en arrière-plan ont été vérifiées et l'utilisateur a reçu une explication claire de l'activité en cours.",
+  "date_creation": "2026-08-25T18:29:02.941823",
+  "derniere_utilisation": "2026-08-25T18:29:02.941823",
+  "succes_compteur": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "verifier_etat_little_snitch_macos",
+  "nom": "Vérifier l'état d'activation et la présence de Little Snitch sur macOS",
+  "declencheurs": [
+    "little snitch",
+    "pas activé",
+    "pare-feu mac",
+    "objective development",
+    "processus little snitch"
+  ],
+  "description": "Vérifie si les processus Little Snitch sont en cours d'exécution et si les dossiers de support associés sont présents sur le système macOS.",
+  "recette_etapes": [
+    "Étape 1: Identifier les processus actifs liés à Little Snitch ou Objective Development via la commande `ps aux` filtrée.",
+    "Étape 2: Vérifier la présence des fichiers de configuration et de support dans `/Library/Application Support/Objective Development/`.",
+    "Étape 3: Conclure sur l'état d'activité (lancé/éteint) et l'installation effective du logiciel."
+  ],
+  "conditions_succes": "Les processus actifs sont listés et l'existence des répertoires d'installation est confirmée ou infirmée avec précision.",
+  "date_creation": "2026-08-29T18:35:43.950691",
+  "derniere_utilisation": "2026-08-29T18:35:43.950691",
+  "succes_compteur": 1
+}

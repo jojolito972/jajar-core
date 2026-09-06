@@ -1,0 +1,21 @@
+{
+  "id": "generation_image_sujet_atypique",
+  "nom": "Génération d'Image de Sujet Atypique en Action",
+  "declencheurs": [
+    "faire un",
+    "générer une image",
+    "illustration de",
+    "hérisson patin à roulette"
+  ],
+  "description": "Créer une illustration visuelle détaillée combinant un sujet insolite avec une action spécifique dans un environnement donné.",
+  "recette_etapes": [
+    "Étape 1: Identifier le sujet principal, son action et le décor.",
+    "Étape 2: Rédiger un prompt descriptif en anglais intégrant le sujet, l'action, le contexte, l'éclairage et le style artistique.",
+    "Étape 3: Définir le ratio d'aspect adapté à la scène (ex: 16:9 pour un paysage).",
+    "Étape 4: Appeler l'outil de génération d'image avec le prompt et le ratio."
+  ],
+  "conditions_succes": "L'image générée correspond précisément à la description demandée avec les détails stylistiques escomptés.",
+  "date_creation": "2026-08-24T18:21:13.516895",
+  "derniere_utilisation": "2026-08-24T19:48:53.465720",
+  "succes_compteur": 2
+}

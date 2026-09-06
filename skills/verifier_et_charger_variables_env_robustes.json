@@ -1,0 +1,21 @@
+{
+  "id": "verifier_et_charger_variables_env_robustes",
+  "nom": "Vérification et chargement robuste des variables d'environnement",
+  "declencheurs": [
+    "verifier .env",
+    "charger variables environnement",
+    "verifier gmail api",
+    "analyser .env"
+  ],
+  "description": "Vérifie l'existence et charge de manière robuste les variables d'environnement (comme les identifiants API Google/Gmail) depuis un fichier .env en gérant les fautes de frappe potentielles dans les clés.",
+  "recette_etapes": [
+    "Étape 1: Vérifier l'état des tâches en arrière-plan si nécessaire.",
+    "Étape 2: Inspecter le fichier .env via des commandes shell ou un script de parsing personnalisé pour identifier les clés cibles (même mal orthographiées).",
+    "Étape 3: Installer les dépendances requises si une intégration API doit être validée (ex: bibliothèques Google API).",
+    "Étape 4: Écrire et exécuter un script Python de lecture chirurgicale du .env pour valider la présence et la validité des secrets (client_id, client_secret)."
+  ],
+  "conditions_succes": "Les identifiants ou variables recherchés sont correctement extraits, validés et confirmés présents par un script de vérification.",
+  "date_creation": "2026-08-25T18:30:06.924321",
+  "derniere_utilisation": "2026-08-25T18:30:06.924321",
+  "succes_compteur": 1
+}

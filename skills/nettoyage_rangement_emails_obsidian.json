@@ -1,0 +1,21 @@
+{
+  "id": "nettoyage_rangement_emails_obsidian",
+  "nom": "Nettoyage, Rangement et Vectorisation d'Archives d'E-mails dans Obsidian",
+  "declencheurs": [
+    "ranger les mails",
+    "nettoyer les e-mails",
+    "archivage mails obsidian",
+    "options 2 et 4"
+  ],
+  "description": "Organiser, nettoyer et vectoriser les archives d'e-mails (période 2025-2026) en appliquant les options combinées 2 et 4 dans le second cerveau Obsidian.",
+  "recette_etapes": [
+    "Étape 1: Identifier et extraire les e-mails des archives cibles (2025-2026).",
+    "Étape 2: Appliquer les critères de tri et de nettoyage des options 2 et 4 pour supprimer le superflu.",
+    "Étape 3: Structurer et ranger proprement les notes d'e-mails dans le vault Obsidian.",
+    "Étape 4: Synchroniser le second cerveau et lancer la vectorisation via le modèle local pour indexer les passages."
+  ],
+  "conditions_succes": "Les archives d'e-mails sont nettoyées, classées dans le vault Obsidian et la synchronisation avec vectorisation est validée sans erreur.",
+  "date_creation": "2026-08-23T18:43:25.112846",
+  "derniere_utilisation": "2026-08-23T18:43:25.112846",
+  "succes_compteur": 1
+}

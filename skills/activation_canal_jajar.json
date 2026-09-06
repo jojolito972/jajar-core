@@ -1,0 +1,21 @@
+{
+  "id": "activation_canal_jajar",
+  "nom": "Activation du Canal Actif JAJAR",
+  "declencheurs": [
+    "alors c est parti",
+    "canal actif",
+    "activer telegram",
+    "verifier interactions"
+  ],
+  "description": "Procédure d'initialisation et de vérification du canal de communication actif JAJAR (Telegram, rappels, notes et synchronisation du second cerveau).",
+  "recette_etapes": [
+    "Étape 1: Lire les dernières interactions sur Telegram pour détecter les instructions utilisateur.",
+    "Étape 2: Consulter les rappels et notes macOS pour récupérer le contexte opérationnel en cours.",
+    "Étape 3: Synchroniser le second cerveau (Vault Obsidian) pour assurer l'accès aux données à jour.",
+    "Étape 4: Envoyer une notification macOS de confirmation pour valider que le canal est pleinement opérationnel."
+  ],
+  "conditions_succes": "Les interactions Telegram sont lues, le second cerveau est synchronisé et la notification macOS de confirmation est transmise avec succès.",
+  "date_creation": "2026-08-23T23:41:21.328804",
+  "derniere_utilisation": "2026-08-23T23:41:21.328804",
+  "succes_compteur": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "reprise_idee_telegram_vers_atelier",
+  "nom": "Reprise et concrétisation d'une idée initiée sur Telegram",
+  "declencheurs": [
+    "idée sur telegram",
+    "reprendre la discussion",
+    "parler d une idee sur telegram"
+  ],
+  "description": "Permet de transposer une discussion ou une idée initiée sur Telegram dans l'atelier JAJAR pour la formaliser via des spécifications techniques et un prototype fonctionnel.",
+  "recette_etapes": [
+    "Étape 1: Analyser l'idée transmise depuis Telegram (objectifs, contraintes, utilisateurs cibles).",
+    "Étape 2: Rédiger la spécification technique initiale dans le bac à sable (fichier .md).",
+    "Étape 3: Soumettre le projet à un débat multi-agents (Studio) pour challenger l'architecture et l'implémentation.",
+    "Étape 4: Développer le prototype fonctionnel (script ou application) validé par le studio et le tester."
+  ],
+  "conditions_succes": "L'idée initiale est convertie en une spécification claire, débattue et dotée d'un prototype de code testé et validé.",
+  "date_creation": "2026-08-23T19:01:05.793478",
+  "derniere_utilisation": "2026-08-23T19:01:05.793478",
+  "succes_compteur": 1
+}

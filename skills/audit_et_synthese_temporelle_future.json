@@ -1,0 +1,20 @@
+{
+  "id": "audit_et_synthese_temporelle_future",
+  "nom": "Audit et Synthèse d'Objectifs Annuels Futurs",
+  "declencheurs": [
+    "fait directement l annee",
+    "analyse et ton audit",
+    "these et antithese",
+    "objectifs annuels"
+  ],
+  "description": "Permet d'interroger la mémoire locale pour récupérer les données d'une année spécifique, de lire le fichier de référence associé, et de structurer une réponse analytique comprenant un audit, une thèse et une antithèse.",
+  "recette_etapes": [
+    "Étape 1 : Interroger la mémoire locale avec la requête temporelle cible (ex: '2026') pour identifier les fichiers pertinents.",
+    "Étape 2 : Lire le contenu complet du fichier source identifié pour extraire les objectifs et données contextuelles.",
+    "Étape 3 : Structurer la réponse finale intégrant l'analyse, l'audit, ainsi qu'une dialectique thèse/antithèse."
+  ],
+  "conditions_succes": "Le fichier cible est lu avec succès, les données sont extraites et la structure argumentative (audit, thèse, antithèse) est clairement restituée.",
+  "date_creation": "2026-08-23T17:06:06.098326",
+  "derniere_utilisation": "2026-08-23T17:06:06.098326",
+  "succes_compteur": 1
+}

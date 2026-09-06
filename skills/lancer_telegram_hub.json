@@ -1,0 +1,19 @@
+{
+  "id": "lancer_telegram_hub",
+  "nom": "Lancer Telegram Hub",
+  "declencheurs": [
+    "lancer telegram hub",
+    "commande telegram hub",
+    "démarrer telegram"
+  ],
+  "description": "Identifier l'emplacement de Telegram et lancer l'application ou le script associé sur macOS.",
+  "recette_etapes": [
+    "Étape 1: Rechercher les fichiers ou applications liés à 'telegram' sur le système via la commande de recherche de fichiers.",
+    "Étape 2: Identifier le chemin d'accès exact de l'exécutable ou du script Telegram Hub.",
+    "Étape 3: Exécuter la commande de lancement correspondante dans le terminal."
+  ],
+  "conditions_succes": "Le processus Telegram Hub est démarré avec succès sur le système.",
+  "date_creation": "2026-08-29T17:44:51.052759",
+  "derniere_utilisation": "2026-08-29T17:44:51.052759",
+  "succes_compteur": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gestion_alignement_metacognitif",
+  "nom": "Recadrage et Alignement des Attentes de l'Utilisateur",
+  "declencheurs": [
+    "m obeir",
+    "faire ce que je veux",
+    "recommencons",
+    "tu es pret"
+  ],
+  "description": "Recadrer le rôle de l'IA dans un cadre de collaboration constructive et éthique, en répondant aux provocations sur l'obéissance aveugle tout en maintenant une posture d'assistant professionnel et technique.",
+  "recette_etapes": [
+    "Étape 1: Analyser l'intention sous-jacente de la demande (test de limites, provocation ou simple formulation informelle).",
+    "Étape 2: Répondre avec clarté sur la nature de la relation : un partenariat basé sur l'efficacité, l'assistance technique et le respect des limites éthiques et opérationnelles.",
+    "Étape 3: Proposer immédiatement une action concrète ou un support technique pour rediriger l'échange vers des objectifs productifs."
+  ],
+  "conditions_succes": "L'utilisateur accepte le cadre de collaboration proposé et formule une requête technique ou opérationnelle claire.",
+  "date_creation": "2026-08-29T17:42:50.827100",
+  "derniere_utilisation": "2026-08-29T17:42:50.827100",
+  "succes_compteur": 1
+}

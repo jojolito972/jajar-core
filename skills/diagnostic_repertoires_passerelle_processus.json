@@ -1,0 +1,22 @@
+{
+  "id": "diagnostic_repertoires_passerelle_processus",
+  "nom": "Diagnostic des répertoires de passerelle et des processus actifs",
+  "declencheurs": [
+    "gateway",
+    "passerelle",
+    "pm2",
+    "diagnostic distant",
+    "ssh"
+  ],
+  "description": "Identifier l'emplacement du dossier de la passerelle (gateway/passerelle/bridge) sur un hôte distant et vérifier l'état des gestionnaires de processus (pm2, screen, tmux).",
+  "recette_etapes": [
+    "Étape 1: Se connecter à l'hôte distant via SSH.",
+    "Étape 2: Vérifier l'existence des dossiers standards ~/gateway ou ~/passerelle.",
+    "Étape 3: Si absents, effectuer une recherche ciblée des dossiers contenant gateway, passerelle ou bridge dans le répertoire utilisateur.",
+    "Étape 4: Lister les processus actifs en vérifiant successivement pm2, screen et tmux."
+  ],
+  "conditions_succes": "Le dossier cible est identifié avec son chemin exact et l'état des processus actifs est retourné.",
+  "date_creation": "2026-08-24T01:41:25.805936",
+  "derniere_utilisation": "2026-08-24T01:41:25.805936",
+  "succes_compteur": 1
+}

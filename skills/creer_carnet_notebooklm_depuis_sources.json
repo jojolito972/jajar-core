@@ -1,0 +1,19 @@
+{
+  "id": "creer_carnet_notebooklm_depuis_sources",
+  "nom": "Création et alimentation d'un carnet NotebookLM",
+  "declencheurs": [
+    "lien notebooklm",
+    "verifier notebooklm",
+    "créer carnet notebooklm",
+    "alimenter notebooklm"
+  ],
+  "description": "Vérifie la session NotebookLM, crée un nouveau carnet avec un titre spécifique et l'alimente avec des sources locales (fichiers ou dossiers).",
+  "recette_etapes": [
+    "Étape 1: Vérifier la session NotebookLM active.",
+    "Étape 2: Créer et alimenter le carnet NotebookLM avec le titre et les sources spécifiées."
+  ],
+  "conditions_succes": "Le carnet NotebookLM est créé et alimenté avec succès par les sources fournies.",
+  "date_creation": "2026-08-24T03:54:08.548049",
+  "derniere_utilisation": "2026-08-24T03:54:08.548049",
+  "succes_compteur": 1
+}

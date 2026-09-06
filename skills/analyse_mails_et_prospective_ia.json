@@ -1,0 +1,20 @@
+{
+  "id": "analyse_mails_et_prospective_ia",
+  "nom": "Analyse de Messagerie et Veille Technologique IA",
+  "declencheurs": [
+    "analyse des mails",
+    "état de l'art agents IA",
+    "architecture second cerveau",
+    "souveraineté locale vs cloud"
+  ],
+  "description": "Extraire des informations structurées d'une messagerie locale pour alimenter une réflexion stratégique sur l'intégration d'agents IA et l'optimisation d'un système de gestion des connaissances.",
+  "recette_etapes": [
+    "Étape 1: Accéder aux comptes de messagerie via les outils système pour identifier les flux de données.",
+    "Étape 2: Lancer une recherche approfondie sur les technologies d'IA locales et l'orchestration multi-agents.",
+    "Étape 3: Organiser un débat contradictoire entre différents profils d'experts IA pour évaluer les compromis entre confidentialité et performance."
+  ],
+  "conditions_succes": "Fournir une recommandation d'architecture personnalisée alliant analyse de données réelles et prospective technologique.",
+  "date_creation": "2026-08-24T10:42:21.339286",
+  "derniere_utilisation": "2026-08-24T10:42:21.339286",
+  "succes_compteur": 1
+}

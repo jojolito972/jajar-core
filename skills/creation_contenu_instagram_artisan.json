@@ -1,0 +1,23 @@
+{
+  "id": "creation_contenu_instagram_artisan",
+  "nom": "Création de contenu Instagram pour artisan (recherche de contexte et génération)",
+  "declencheurs": [
+    "instagram",
+    "reel",
+    "artisan",
+    "savoir-faire",
+    "générer image",
+    "post instagram"
+  ],
+  "description": "Recherche des notes et projets pertinents dans l'espace de travail (ex: Obsidian, documents), génère un visuel adapté via IA, puis rédige un post Instagram orienté coulisses et savoir-faire artisanal.",
+  "recette_etapes": [
+    "Étape 1: Localiser les sources d'information ou de notes pertinentes (ex: dossiers de projets créatifs, coffres Obsidian) pour identifier le sujet de la création.",
+    "Étape 2: Extraire le contenu des fichiers cibles pour comprendre l'angle éditorial et les détails du projet.",
+    "Étape 3: Générer une image de haute qualité en lien avec la thématique artisanale et le prompt détaillé.",
+    "Étape 4: Rédiger le post Instagram avec l'angle éditorial défini (ex: coulisses du savoir-faire) en respectant le format et la langue demandés."
+  ],
+  "conditions_succes": "Un post Instagram cohérent avec l'univers de l'artisan a été généré, accompagné d'un visuel de qualité correspondant au prompt.",
+  "date_creation": "2026-08-29T17:54:18.623209",
+  "derniere_utilisation": "2026-08-29T17:54:18.623209",
+  "succes_compteur": 1
+}

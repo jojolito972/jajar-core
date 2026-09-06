@@ -1,0 +1,23 @@
+{
+  "id": "classification_emails_emlx_obsidian",
+  "nom": "Classification et tri de fichiers emails .emlx vers Obsidian",
+  "declencheurs": [
+    "emails",
+    "emlx",
+    "trier mes mails",
+    "classification gmail",
+    "voyages trains"
+  ],
+  "description": "Extraire, filtrer et structurer un grand volume de fichiers emails .emlx locaux vers des notes Obsidian thématiques, avec synchronisation et indexation vectorielle.",
+  "recette_etapes": [
+    "Étape 1: Lancer l'extraction ETL par lots croissants sur les fichiers .emlx locaux via l'outil de traitement dédié.",
+    "Étape 2: Filtrer les emails par thématiques prioritaires (vie personnelle, voyages, trains, projets importants).",
+    "Étape 3: Structurer et regrouper les informations pertinentes dans des notes Obsidian dédiées (ex: [[Voyages_Logistique_2026]]).",
+    "Étape 4: Synchroniser le second cerveau et indexer les passages via l'embedding local.",
+    "Étape 5: Ouvrir la note finale synthétique dans Obsidian pour validation."
+  ],
+  "conditions_succes": "Tous les emails cibles sont analysés, structurés par thématiques pertinentes dans Obsidian et accessibles pour consultation.",
+  "date_creation": "2026-08-23T23:54:32.979979",
+  "derniere_utilisation": "2026-08-23T23:54:32.979979",
+  "succes_compteur": 1
+}

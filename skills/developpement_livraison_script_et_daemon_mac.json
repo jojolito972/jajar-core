@@ -1,0 +1,21 @@
+{
+  "id": "developpement_livraison_script_et_daemon_mac",
+  "nom": "Développement et livraison complète de script avec démon de service macOS",
+  "declencheurs": [
+    "developpe tout",
+    "livre ca",
+    "script d'écoute vocale",
+    "démon de service",
+    "plist"
+  ],
+  "description": "Procédure pour concevoir un script exécutable (ex: Python) et configurer son démon de persistance associé (LaunchAgent / plist sous macOS) pour une livraison complète et autonome.",
+  "recette_etapes": [
+    "Étape 1: Analyser le besoin fonctionnel et concevoir le script applicatif principal (ex: gestionnaire vocal ou automatisation).",
+    "Étape 2: Rédiger et écrire le fichier source du script dans le répertoire cible avec les en-têtes et structures nécessaires.",
+    "Étape 3: Créer le fichier de configuration du démon de service (LaunchAgent .plist sous macOS) pour assurer l'exécution automatique et le maintien en vie (KeepAlive)."
+  ],
+  "conditions_succes": "Le script fonctionnel et le fichier de configuration du démon (.plist) sont écrits avec succès sur le système de fichiers, prêts à être activés.",
+  "date_creation": "2026-08-25T02:57:44.474590",
+  "derniere_utilisation": "2026-08-25T02:57:44.474590",
+  "succes_compteur": 1
+}

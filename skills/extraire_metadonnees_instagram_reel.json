@@ -1,0 +1,20 @@
+{
+  "id": "extraire_metadonnees_instagram_reel",
+  "nom": "Extraction de métadonnées d'un Reel Instagram",
+  "declencheurs": [
+    "instagram reel",
+    "metadonnees instagram",
+    "titre reel instagram",
+    "yt-dlp instagram"
+  ],
+  "description": "Extraire les informations ou le titre d'une vidéo Instagram Reel en utilisant yt-dlp avec un fallback HTTP via curl.",
+  "recette_etapes": [
+    "Étape 1: Exécuter 'yt-dlp -j <URL_INSTAGRAM>' pour tenter d'obtenir les métadonnées complètes au format JSON.",
+    "Étape 2: En cas d'échec de yt-dlp, utiliser curl avec un User-Agent navigateur valide pour récupérer la page HTML.",
+    "Étape 3: Filtrer le résultat HTML avec grep pour extraire le contenu de la balise <title>."
+  ],
+  "conditions_succes": "Obtention des métadonnées JSON de la vidéo ou au minimum du titre extrait de la balise HTML.",
+  "date_creation": "2026-08-27T14:51:56.605680",
+  "derniere_utilisation": "2026-08-27T14:51:56.605680",
+  "succes_compteur": 1
+}

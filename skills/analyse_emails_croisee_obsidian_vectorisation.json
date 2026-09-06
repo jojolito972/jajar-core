@@ -1,0 +1,21 @@
+{
+  "id": "analyse_emails_croisee_obsidian_vectorisation",
+  "nom": "Analyse dialectique et vectorisation des emails pour le second cerveau Obsidian",
+  "declencheurs": [
+    "analyser les emails",
+    "synthese dialectique emails",
+    "injecter dans obsidian",
+    "vectoriser les emails"
+  ],
+  "description": "Procédure complète d'extraction des emails, de synthèse sémantique et dialectique multi-agents, de structuration et de vectorisation dans Obsidian pour alimenter le second cerveau.",
+  "recette_etapes": [
+    "Étape 1: Extraire et traiter les emails bruts d'une période donnée en appliquant un filtre temporel.",
+    "Étape 2: Orchestrer un débat multi-agents pour analyser en profondeur l'essence, les non-dits, les risques et les rapprochements stratégiques des messages.",
+    "Étape 3: Structurer les synthèses sémantiques et dialectiques sous forme de notes interconnectées pour Obsidian.",
+    "Étape 4: Vectoriser et synchroniser le vault Obsidian pour intégrer les nouveaux passages dans le moteur de recherche sémantique du second cerveau."
+  ],
+  "conditions_succes": "Les emails sont extraits, analysés par les agents, synthétisés dialectiquement, injectés dans le vault Obsidian et vectorisés avec succès.",
+  "date_creation": "2026-08-23T18:33:56.639641",
+  "derniere_utilisation": "2026-08-23T18:33:56.639641",
+  "succes_compteur": 1
+}

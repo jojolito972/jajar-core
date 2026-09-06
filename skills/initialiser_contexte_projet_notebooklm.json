@@ -1,0 +1,20 @@
+{
+  "id": "initialiser_contexte_projet_notebooklm",
+  "nom": "Initialisation et récupération de contexte pour un projet NotebookLM",
+  "declencheurs": [
+    "notebooklm",
+    "projet notebook lm",
+    "retrouver projet notebooklm",
+    "carnet podcast notebooklm"
+  ],
+  "description": "Procédure d'initialisation permettant de vérifier la session active NotebookLM et de charger le contexte ou les notes associées à un projet spécifique depuis la mémoire locale.",
+  "recette_etapes": [
+    "Étape 1: Vérifier l'état de la session active sur NotebookLM via l'outil dédié (verifier_session_notebooklm).",
+    "Étape 2: Rechercher les informations relatives au projet (notes, carnets, podcasts) dans la mémoire locale (interroger_memoire_locale).",
+    "Étape 3: Consolider le contexte récupéré pour reprendre la session de travail de manière fluide."
+  ],
+  "conditions_succes": "La session NotebookLM est active/validée et l'historique du projet correspondant a été extrait de la mémoire locale.",
+  "date_creation": "2026-08-25T18:07:44.471559",
+  "derniere_utilisation": "2026-08-25T18:07:44.471559",
+  "succes_compteur": 1
+}

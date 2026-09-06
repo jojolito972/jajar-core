@@ -1,0 +1,22 @@
+{
+  "id": "analyser_et_injecter_sources_gallica_notebooklm",
+  "nom": "Analyser et injecter des sources PDF Gallica dans NotebookLM",
+  "declencheurs": [
+    "gallica",
+    "notebooklm",
+    "rag",
+    "pdf",
+    "maison rustique"
+  ],
+  "description": "Analyser un répertoire de sources PDF (ex: Gallica), filtrer les fichiers non pertinents, classifier les documents et préparer/exécuter l'injection dans le RAG NotebookLM en suivant un runbook.",
+  "recette_etapes": [
+    "Étape 1: Explorer le dossier cible pour lister l'ensemble des fichiers PDF disponibles.",
+    "Étape 2: Filtrer les documents pour écarter le bruit (partitions, musiques, etc.) et créer un manifeste JSON des sources pertinentes.",
+    "Étape 3: Analyser et classifier les sources par thématiques (agriculture, autonomie, énergie, etc.) via un script de traitement.",
+    "Étape 4: Valider le runbook d'intégration et simuler ou exécuter l'injection des fichiers PDF sélectionnés dans l'outil NotebookLM."
+  ],
+  "conditions_succes": "Le manifeste des sources est généré, les fichiers sont catégorisés et la procédure d'injection RAG est validée et exécutée avec succès.",
+  "date_creation": "2026-08-24T03:51:19.604006",
+  "derniere_utilisation": "2026-08-24T03:51:19.604006",
+  "succes_compteur": 1
+}

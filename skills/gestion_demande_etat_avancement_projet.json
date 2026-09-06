@@ -1,0 +1,21 @@
+{
+  "id": "gestion_demande_etat_avancement_projet",
+  "nom": "Suivi de l'état d'avancement d'un projet spécifique",
+  "declencheurs": [
+    "etat d avancement",
+    "suivi de projet",
+    "ou en est",
+    "projet main libre vocal"
+  ],
+  "description": "Répondre à une demande de suivi ou d'état d'avancement sur un projet ciblé en filtrant les propositions non désirées mais en les archivant pour plus tard.",
+  "recette_etapes": [
+    "Étape 1: Identifier le projet spécifique demandé par l'utilisateur parmi les sujets en cours (ex: projet main libre vocal).",
+    "Étape 2: Mettre de côté ou archiver les propositions non sollicitées (comme les tableaux de bord) pour un usage ultérieur selon la demande.",
+    "Étape 3: Vérifier l'état actuel, les tâches en arrière-plan ou l'historique lié au projet cible.",
+    "Étape 4: Rédiger un compte-rendu clair et direct de l'avancement du projet demandé."
+  ],
+  "conditions_succes": "L'utilisateur obtient une visibilité claire sur l'état d'avancement du projet demandé et ses idées annexes sont correctement stockées en mémoire.",
+  "date_creation": "2026-08-25T02:55:23.358125",
+  "derniere_utilisation": "2026-08-25T02:55:23.358125",
+  "succes_compteur": 1
+}

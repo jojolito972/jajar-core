@@ -1,0 +1,22 @@
+{
+  "resume": "En ce début de septembre 2026, l'activité s'est concentrée sur la consolidation technique de l'écosystème IA (validation intégrale des outils multi-formats CrewAI/RAG, paramétrage du pipeline de génération d'images haute définition via Hugging Face/FLUX.1-dev), l'audit de cohérence du Second Cerveau (score de 88 % atteint) et la tenue d'un débat stratégique tripartite (Ray, Tesla, Cléo) pour cadrer le cap opérationnel et commercial du quatrième trimestre.",
+  "regles_apprises": [
+    "Pour instancier les outils de recherche vectorielle RAG de `crewai_tools` (CSVSearchTool, DOCXSearchTool), il est impératif d'initialiser une variable d'environnement `OPENAI_API_KEY` même factice en environnement de test pour éviter les blocages au démarrage.",
+    "L'intégration d'API externes de génération d'images (ex: Hugging Face FLUX.1-dev) nécessite une vérification systématique du nom exact des variables dans le fichier `.env` (`HUGGINGFACE_API_KEY` vs `HF_TOKEN`) avec rechargement `python-dotenv` dynamique.",
+    "En période de reprise à fort flux d'information (rentrée Q4), le filtrage strict des canaux de veille à 3 arbitrages majeurs par jour est la seule garantie contre la paralysie par l'analyse."
+  ],
+  "priorites_matin": [
+    {
+      "titre": "Verrouillage commercial & Offres Q4",
+      "description": "Ajuster la grille tarifaire (TJM/forfaits) et structurer les offres d'accompagnement récurrentes à haute valeur ajoutée pour capter les budgets clients du T4."
+    },
+    {
+      "titre": "Automatisation de la supervision infra (CLI Tailscale)",
+      "description": "Déployer le script d'orchestration Python (Typer/Rich) pour auditer les nœuds Tailscale, renouveler les clés éphémères et automatiser les rapports système."
+    },
+    {
+      "titre": "Assainissement du Second Cerveau & Workflows CrewAI",
+      "description": "Résoudre le conflit d'information isolé lors de l'audit épistémique (88%) dans Obsidian et valider la mise en production des agents multi-outils RAG."
+    }
+  ]
+}

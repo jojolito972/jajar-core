@@ -1,0 +1,22 @@
+{
+  "id": "diagnostic_espace_disque_et_ram",
+  "nom": "Diagnostic approfondi de l'espace disque et de la mémoire RAM",
+  "declencheurs": [
+    "diagnostique mon disque",
+    "combien de gigas on peut récupérer",
+    "cache",
+    "supprimer",
+    "ram",
+    "nettoyer mac"
+  ],
+  "description": "Analyse en profondeur de l'espace disque global, des dossiers lourds et caches utilisateurs, ainsi que des processus consommateurs de RAM.",
+  "recette_etapes": [
+    "Étape 1: Analyser l'espace disque global avec df -h /",
+    "Étape 2: Identifier les dossiers lourds et les caches utilisateur avec du -sh triés par taille décroissante",
+    "Étape 3: Lister les processus les plus consommateurs de mémoire RAM avec ps aux -m"
+  ],
+  "conditions_succes": "Obtention d'un rapport détaillé incluant l'utilisation globale du disque, la taille des caches et la liste des processus gourmands en RAM.",
+  "date_creation": "2026-08-25T01:23:09.254782",
+  "derniere_utilisation": "2026-08-25T01:23:09.254782",
+  "succes_compteur": 1
+}

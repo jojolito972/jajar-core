@@ -1,0 +1,20 @@
+{
+  "id": "config_connexion_api_gmail",
+  "nom": "Configuration de la connexion API Gmail via .env",
+  "declencheurs": [
+    "gmail",
+    "connexion gmail",
+    "api gmail",
+    ".env google"
+  ],
+  "description": "Vérifier et initialiser la connexion à l'API Gmail en chargeant les identifiants depuis un fichier .env.",
+  "recette_etapes": [
+    "Étape 1: Rechercher les variables liées à Gmail ou Google dans le fichier .env cible.",
+    "Étape 2: Charger les variables d'environnement via python-dotenv pour valider la présence des clés (GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET).",
+    "Étape 3: Créer et exécuter un script de test pour confirmer l'intégrité de la configuration et l'accès aux identifiants."
+  ],
+  "conditions_succes": "Les variables d'authentification Google/Gmail sont correctement lues et validées par un script de test Python.",
+  "date_creation": "2026-08-25T18:16:24.709435",
+  "derniere_utilisation": "2026-08-25T18:16:24.709435",
+  "succes_compteur": 1
+}

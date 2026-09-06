@@ -1,0 +1,21 @@
+{
+  "id": "generer_et_envoyer_image_chat_machu_picchu",
+  "nom": "Génération et Envoi d'Image de Chat au Machu Picchu",
+  "declencheurs": [
+    "chat",
+    "machu picchu",
+    "generer_image",
+    "telegram"
+  ],
+  "description": "Générer une image réaliste d'un chat dans un lieu iconique comme le Machu Picchu via un modèle de génération d'images et l'envoyer sur Telegram.",
+  "recette_etapes": [
+    "Étape 1: Formuler un prompt détaillé décrivant le sujet (un chat majestueux) dans son décor (les ruines du Machu Picchu) avec des spécifications de style (photoréaliste, éclairage cinématographique).",
+    "Étape 2: Appeler l'outil de génération d'images (ex: FLUX.1) avec le prompt et le format d'aspect souhaité (16:9).",
+    "Étape 3: Récupérer le chemin du fichier image généré.",
+    "Étape 4: Transmettre le fichier image généré sur l'application de messagerie Telegram."
+  ],
+  "conditions_succes": "L'image a été générée avec succès et le fichier correspondant a été envoyé sur Telegram.",
+  "date_creation": "2026-08-24T00:01:31.773868",
+  "derniere_utilisation": "2026-08-24T00:01:31.773868",
+  "succes_compteur": 1
+}

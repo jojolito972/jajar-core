@@ -1,0 +1,20 @@
+{
+  "id": "diagnostic_processus_python_jarvis",
+  "nom": "Diagnostic des processus JARVIS et des ports Python actifs",
+  "declencheurs": [
+    "il y a un probleme",
+    "verifier jarvis",
+    "diagnostic processus python",
+    "hub telegram vocal"
+  ],
+  "description": "Vérifie l'état d'exécution des processus liés à JARVIS et liste les sockets réseau actifs pour les scripts Python afin de détecter les conflits ou pannes.",
+  "recette_etapes": [
+    "Étape 1: Exécuter une commande shell pour lister les processus contenant 'jarvis' via 'ps aux'.",
+    "Étape 2: Filtrer les résultats pour exclure la commande grep elle-même.",
+    "Étape 3: Vérifier les connexions réseau et ports ouverts par les processus Python à l'aide de 'lsof -i -P'."
+  ],
+  "conditions_succes": "Les processus en cours d'exécution et les ports associés sont identifiés clairement, permettant de confirmer si le Super-Hub est actif ou en échec.",
+  "date_creation": "2026-08-29T17:45:58.541455",
+  "derniere_utilisation": "2026-08-29T17:45:58.541455",
+  "succes_compteur": 1
+}

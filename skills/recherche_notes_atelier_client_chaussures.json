@@ -1,0 +1,19 @@
+{
+  "id": "recherche_notes_atelier_client_chaussures",
+  "nom": "Recherche de notes d'atelier pour des projets de chaussures sur-mesure",
+  "declencheurs": [
+    "chaussures",
+    "laura puntillo",
+    "notes d'atelier",
+    "client bespoke"
+  ],
+  "description": "Identifier et consulter les notes d'atelier et spécifications de projets de chaussures sur-mesure pour un client spécifique.",
+  "recette_etapes": [
+    "Étape 1: Lister le contenu du dossier d'atelier du client pour identifier les fichiers pertinents.",
+    "Étape 2: Lire le fichier de notes ou de spécifications (ex: client_test_bespoke.md) pour extraire les détails de la commande."
+  ],
+  "conditions_succes": "Les spécifications et notes d'atelier concernant les chaussures et le client ont été lues et récupérées avec succès.",
+  "date_creation": "2026-08-25T01:57:57.828999",
+  "derniere_utilisation": "2026-08-25T01:57:57.828999",
+  "succes_compteur": 1
+}

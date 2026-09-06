@@ -1,0 +1,21 @@
+{
+  "id": "demarrage_services_gateway_ssh",
+  "nom": "Démarrage des services de passerelle et vérification par SSH",
+  "declencheurs": [
+    "démarrer passerelle",
+    "lancer gateway",
+    "application effective points",
+    "start gateway ssh"
+  ],
+  "description": "Exécute le script de démarrage d'une application ou d'une passerelle sur un hôte distant via SSH et vérifie l'état des processus actifs.",
+  "recette_etapes": [
+    "Étape 1: Se connecter à l'hôte distant via SSH.",
+    "Étape 2: Vérifier la présence des scripts de démarrage usuels (~/gateway/start.sh, ~/gateway/run.py, ~/passerelle/start.sh).",
+    "Étape 3: Exécuter le script trouvé ou basculer sur un gestionnaire de processus (pm2 resurrect/start).",
+    "Étape 4: Afficher et vérifier l'état final des processus en cours d'exécution via ps aux."
+  ],
+  "conditions_succes": "Le script de démarrage approprié est exécuté avec succès et les processus cibles apparaissent dans la liste des processus actifs.",
+  "date_creation": "2026-08-24T01:43:15.417465",
+  "derniere_utilisation": "2026-08-24T01:43:15.417465",
+  "succes_compteur": 1
+}

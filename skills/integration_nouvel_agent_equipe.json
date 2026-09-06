@@ -1,0 +1,19 @@
+{
+  "id": "integration_nouvel_agent_equipe",
+  "nom": "Intégration d'un nouvel agent dans l'équipe et création de son dashboard",
+  "declencheurs": [
+    "intégrer un agent",
+    "ajouter à l'équipe",
+    "créer un onglet dashboard agent",
+    "discuter avec cet agent"
+  ],
+  "description": "Procédure pour connecter un nouvel agent IA aux autres membres de l'équipe dans le graphe de connaissances et générer sa page de documentation ou dashboard dans le coffre-fort Obsidian.",
+  "recette_etapes": [
+    "Étape 1: Enregistrer les relations de l'agent avec l'utilisateur et les autres agents de l'équipe (RAY, TESLA, CLEO, etc.) via le graphe de relations.",
+    "Étape 2: Rédiger et enregistrer un fichier markdown de dashboard pour l'agent (ex: Cesare_Dashboard.md) détaillant son rôle, ses connexions et les modalités d'interaction."
+  ],
+  "conditions_succes": "Toutes les relations du nouvel agent sont enregistrées dans le graphe et son fichier de dashboard est créé et accessible dans le coffre-fort Obsidian.",
+  "date_creation": "2026-08-23T19:29:12.793312",
+  "derniere_utilisation": "2026-08-23T19:29:12.793312",
+  "succes_compteur": 1
+}

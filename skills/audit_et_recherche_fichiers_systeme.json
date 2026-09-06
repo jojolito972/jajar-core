@@ -1,0 +1,21 @@
+{
+  "id": "audit_et_recherche_fichiers_systeme",
+  "nom": "Audit et Recherche de Fichiers Système",
+  "declencheurs": [
+    "fichiers importants",
+    "dossier system",
+    "recherche module",
+    "audit fichiers"
+  ],
+  "description": "Inventorier, auditer et rechercher des modules ou fichiers spécifiques au sein d'un répertoire système (ex: Jarvis) via des commandes shell ciblées.",
+  "recette_etapes": [
+    "Étape 1: Lister le contenu du dossier cible pour identifier la structure générale.",
+    "Étape 2: Auditer les sous-dossiers clés (core, automation, etc.) pour localiser les scripts exécutables.",
+    "Étape 3: Vérifier les configurations sensibles (.env) et rechercher des mots-clés spécifiques dans le code (ex: 'gmail', 'smtp').",
+    "Étape 4: Utiliser des commandes de recherche de fichiers par motifs (find) pour localiser des modules spécifiques."
+  ],
+  "conditions_succes": "Les fichiers et modules recherchés ont été localisés, listés et leur présence dans l'environnement système a été validée.",
+  "date_creation": "2026-09-02T18:41:58.658059",
+  "derniere_utilisation": "2026-09-02T18:41:58.658059",
+  "succes_compteur": 1
+}

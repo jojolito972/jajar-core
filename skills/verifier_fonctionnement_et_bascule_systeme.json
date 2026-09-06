@@ -1,0 +1,20 @@
+{
+  "id": "verifier_fonctionnement_et_bascule_systeme",
+  "nom": "Vérification et Bascule de Mode Système",
+  "declencheurs": [
+    "ca marche",
+    "je peux tester",
+    "verifier etat",
+    "basculer mode"
+  ],
+  "description": "Valider le bon fonctionnement d'un système en effectuant un cycle de bascule des modes (ex: offline vers online) via des scripts dédiés.",
+  "recette_etapes": [
+    "Étape 1: Identifier le script de contrôle des modes du système.",
+    "Étape 2: Exécuter une séquence de test basculant l'état vers offline puis revenant en online pour s'assurer de la réactivité et de l'intégrité des services.",
+    "Étape 3: Confirmer le succès de l'exécution des commandes au client et l'inviter à procéder aux tests."
+  ],
+  "conditions_succes": "Les commandes shell de bascule s'exécutent sans erreur et le système est prêt pour les tests utilisateur.",
+  "date_creation": "2026-08-25T21:22:00.612584",
+  "derniere_utilisation": "2026-08-25T21:22:00.612584",
+  "succes_compteur": 1
+}

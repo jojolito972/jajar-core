@@ -1,0 +1,22 @@
+{
+  "id": "integrer_outils_recherche_crewai",
+  "nom": "Intégration et Test des Outils de Recherche CrewAI",
+  "declencheurs": [
+    "SerperDevTool",
+    "DuckDuckGoSearchTool",
+    "BraveSearchTool",
+    "ExaSearchTool",
+    "recherche web crewai"
+  ],
+  "description": "Permet d'importer, d'initialiser et de valider les outils de recherche web (tels que SerperDevTool, DuckDuckGoSearchTool, BraveSearchTool, ExaSearchTool et WebsiteSearchTool) pour les agents CrewAI.",
+  "recette_etapes": [
+    "Étape 1: Configurer l'environnement minimal requis (définir des variables d'environnement factices si nécessaire pour l'API Key).",
+    "Étape 2: Rédiger un script de test Python important les classes d'outils de recherche depuis le module `crewai_tools`.",
+    "Étape 3: Instancier les différents outils de recherche cibles (SerperDevTool, DuckDuckGoSearchTool, etc.).",
+    "Étape 4: Exécuter et valider le script via l'environnement virtuel pour s'assurer de l'absence d'erreurs d'importation ou d'initialisation."
+  ],
+  "conditions_succes": "Les outils de recherche s'importent et s'instancient sans lever d'exception dans l'environnement d'exécution.",
+  "date_creation": "2026-08-24T13:34:49.217506",
+  "derniere_utilisation": "2026-08-24T13:34:49.217506",
+  "succes_compteur": 1
+}

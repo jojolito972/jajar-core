@@ -1,0 +1,63 @@
+{
+  "tesla": {
+    "persona": "tesla",
+    "pid": 14041,
+    "derniere_activite": "2026-08-25T12:28:38.272533",
+    "herdr_pane": "TESLA"
+  },
+  "ray": {
+    "persona": "ray",
+    "pid": 14044,
+    "derniere_activite": "2026-08-25T12:28:38.318523",
+    "herdr_pane": "RAY"
+  },
+  "ansel": {
+    "nom": "ANSEL",
+    "persona": "ansel",
+    "pid": 14722,
+    "derniere_activite": "2026-08-25T15:22:49.702049",
+    "pane_id": "w2:p7"
+  },
+  "alba": {
+    "persona": "alba",
+    "pid": 14049,
+    "derniere_activite": "2026-08-25T12:28:38.169592",
+    "herdr_pane": "ALBA"
+  },
+  "cleo": {
+    "persona": "cleo",
+    "pid": 14045,
+    "derniere_activite": "2026-08-25T12:28:36.456424",
+    "herdr_pane": "CLEO"
+  },
+  "jarvis": {
+    "persona": "jarvis",
+    "pid": 14649,
+    "derniere_activite": "2026-08-25T14:59:18.046547",
+    "herdr_pane": "w2:pA"
+  },
+  "alfred": {
+    "persona": "alfred",
+    "pid": 14043,
+    "derniere_activite": "2026-08-25T12:28:38.492643",
+    "herdr_pane": "ALFRED"
+  },
+  "franklin": {
+    "persona": "franklin",
+    "pid": 14047,
+    "derniere_activite": "2026-08-25T12:28:38.550167",
+    "herdr_pane": "FRANKLIN"
+  },
+  "indiana": {
+    "persona": "indiana",
+    "pid": 14048,
+    "derniere_activite": "2026-08-25T12:28:38.471974",
+    "herdr_pane": "INDIANA"
+  },
+  "leo": {
+    "persona": "leo",
+    "pid": 14046,
+    "derniere_activite": "2026-08-25T12:28:38.645942",
+    "herdr_pane": "LEO"
+  }
+}

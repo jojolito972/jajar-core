@@ -1,0 +1,21 @@
+{
+  "id": "extraire_metadata_og_instagram",
+  "nom": "Extraction de métadonnées OpenGraph Instagram via Python",
+  "declencheurs": [
+    "instagram reel bloqué",
+    "extraire meta instagram",
+    "scrape instagram og tags",
+    "analyser lien instagram"
+  ],
+  "description": "Procédure permettant de contourner les blocages d'accès direct à Instagram en simulant un User-Agent de crawler social (ex: Facebook) pour récupérer les balises OpenGraph (titre et description).",
+  "recette_etapes": [
+    "Étape 1: Configurer une requête HTTP Python urllib avec le User-Agent 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)'.",
+    "Étape 2: Effectuer un GET HTTP sur l'URL Instagram visée (Reel/Post).",
+    "Étape 3: Utiliser des regex pour capturer le contenu des balises meta 'og:title' et 'og:description' dans le HTML récupéré.",
+    "Étape 4: Afficher et traiter les données extraites (titre et description)."
+  ],
+  "conditions_succes": "Les balises og:title et/ou og:description sont extraites avec succès sans redirection vers une page de connexion Instagram.",
+  "date_creation": "2026-08-29T17:02:07.659481",
+  "derniere_utilisation": "2026-08-29T17:02:07.659481",
+  "succes_compteur": 1
+}

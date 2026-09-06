@@ -1,0 +1,22 @@
+{
+  "id": "grosse_analyse_systeme_macos",
+  "nom": "Grosse Analyse Système et Santé macOS",
+  "declencheurs": [
+    "grosse analyse",
+    "analyse en carton",
+    "diagnostic systeme approfondi",
+    "audit macos"
+  ],
+  "description": "Réalise un audit complet et multi-niveaux d'un système macOS (espace disque APFS, charge CPU/RAM, processus réseau et Little Snitch, daemons/agents de persistance, et logs d'erreurs critiques).",
+  "recette_etapes": [
+    "Étape 1: Analyser la santé globale et l'espace disque du conteneur APFS principal via diskutil.",
+    "Étape 2: Inspecter la charge mémoire (vm_stat) et l'utilisation CPU immédiate (top).",
+    "Étape 3: Vérifier les outils de sécurité réseau actifs (ex: Little Snitch) et lister les connexions TCP établies.",
+    "Étape 4: Auditer les points de persistance du système (LaunchAgents et LaunchDaemons globaux et utilisateur).",
+    "Étape 5: Interroger les logs système pour identifier les erreurs critiques (severity >= 16) sur les dernières 24 heures."
+  ],
+  "conditions_succes": "Exécution séquentielle de toutes les vérifications système et affichage consolidé des métriques clés (disque, mémoire, réseau, persistance, erreurs).",
+  "date_creation": "2026-08-29T18:36:32.925420",
+  "derniere_utilisation": "2026-08-29T18:36:32.925420",
+  "succes_compteur": 1
+}

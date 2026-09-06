@@ -1,0 +1,22 @@
+{
+  "id": "documenter_ressource_ia_build",
+  "nom": "Documentation et Intégration de Plateformes d'Inférence IA",
+  "declencheurs": [
+    "créer un compte nvidia",
+    "clé api gratuite",
+    "modèles nim",
+    "build.nvidia.com",
+    "documenter ressource ia"
+  ],
+  "description": "Procédure pour documenter une nouvelle plateforme d'inférence d'IA (comme NVIDIA Build NIM), extraire les clés API et planifier l'intégration dans des outils (Claude Code) ou des pipelines de développement.",
+  "recette_etapes": [
+    "Étape 1: Analyser la source opérationnelle (ex: Reel, tutoriel) pour identifier la proposition de valeur et les modèles disponibles.",
+    "Étape 2: Extraire le processus pratique (création de compte, test en interface, obtention de clé API).",
+    "Étape 3: Définir les cas d'usage cibles et l'intégration technique (Claude Code, agents, pipelines Python).",
+    "Étape 4: Rédiger et structurer la documentation au format Markdown dans le dossier de projet approprié via l'outil d'écriture de fichier."
+  ],
+  "conditions_succes": "La ressource est documentée avec un résumé clair, les étapes pratiques d'utilisation de l'API et ses implications stratégiques pour le studio dans un fichier Markdown structuré.",
+  "date_creation": "2026-08-29T17:54:56.202173",
+  "derniere_utilisation": "2026-08-29T17:54:56.202173",
+  "succes_compteur": 1
+}

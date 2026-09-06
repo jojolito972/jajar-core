@@ -1,0 +1,22 @@
+{
+  "id": "filtrage_et_extraction_chirurgicale_emails",
+  "nom": "Filtrage et Extraction Chirurgicale d'Emails Utiles",
+  "declencheurs": [
+    "nettoyer les emails",
+    "extraire les informations importantes des mails",
+    "supprimer les pubs et promos",
+    "vider et recommencer le tri"
+  ],
+  "description": "Permet de purger les données obsolètes ou superflues (publicités, promotions) d'un dossier de stockage d'emails, puis d'effectuer un scan et une extraction ciblée uniquement des informations à haute valeur ajoutée (sécurité, réservations, facturation administrative) pour alimenter proprement le second cerveau.",
+  "recette_etapes": [
+    "Étape 1: Analyser le répertoire cible et procéder à une purge totale des fichiers obsolètes ou non pertinents (publicités, spams, promos).",
+    "Étape 2: Lire et analyser le contenu réel des boîtes mail pour identifier les informations critiques et opérationnelles (alertes de sécurité, réservations de voyage, communications administratives).",
+    "Étape 3: Structurer les données extraites sous forme de notes Markdown propres, classées par entreprise/source.",
+    "Étape 4: Enregistrer les notes validées dans le vault Obsidian ou la base de connaissances.",
+    "Étape 5: Lancer une synchronisation du second cerveau pour intégrer les nouvelles données vectorielles."
+  ],
+  "conditions_succes": "Le dossier cible ne contient plus de bruits publicitaires, seules les informations vitales sont conservées sous forme de notes structurées, et le second cerveau est synchronisé.",
+  "date_creation": "2026-08-24T00:20:10.598754",
+  "derniere_utilisation": "2026-08-24T00:20:10.598754",
+  "succes_compteur": 1
+}

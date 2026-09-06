@@ -1,0 +1,22 @@
+{
+  "id": "extraction_mot_de_passe_wifi_macos",
+  "nom": "Inspection des connexions réseau et recherche de mots de passe Wi-Fi sous macOS",
+  "declencheurs": [
+    "inspecter une connexion",
+    "trouver le mot de passe",
+    "reseau wifi macos",
+    "networksetup",
+    "airport wireless"
+  ],
+  "description": "Identifier les interfaces réseau disponibles, lister les réseaux Wi-Fi préférés ou à portée, et récupérer les informations de connexion sous macOS.",
+  "recette_etapes": [
+    "Étape 1: Lister les ports matériels et les connexions VPN/système avec 'networksetup -listallhardwareports && scutil --nc list'.",
+    "Étape 2: Identifier les réseaux Wi-Fi enregistrés et préférés avec 'networksetup -listpreferredwirelessnetworks en0'.",
+    "Étape 3: Scanner les réseaux sans fil à proximité en utilisant l'outil airport privé de macOS ('/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s').",
+    "Étape 4: Vérifier l'état et les informations Wi-Fi actuelles via 'wdutil info'."
+  ],
+  "conditions_succes": "Les interfaces réseau, les réseaux enregistrés et les points d'accès à portée ont été listés avec succès pour permettre l'investigation.",
+  "date_creation": "2026-08-29T17:20:26.305713",
+  "derniere_utilisation": "2026-08-29T17:20:26.305713",
+  "succes_compteur": 1
+}

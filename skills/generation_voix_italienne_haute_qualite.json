@@ -1,0 +1,22 @@
+{
+  "id": "generation_voix_italienne_haute_qualite",
+  "nom": "Génération de voix italienne féminine haute qualité avec Edge-TTS",
+  "declencheurs": [
+    "voix italienne",
+    "accent italien",
+    "edge-tts italien",
+    "voix feminine italienne"
+  ],
+  "description": "Permet de générer un fichier audio vocal en italien natif féminin de haute qualité (ex: it-IT-IsabellaNeural) pour corriger les problèmes d'accent d'une voix française.",
+  "recette_etapes": [
+    "Étape 1: Identifier le texte à synthétiser en langue italienne.",
+    "Étape 2: Sélectionner une voix native féminine de haute qualité dans edge_tts (ex: 'it-IT-IsabellaNeural').",
+    "Étape 3: Créer un script Python utilisant edge_tts.Communicate pour générer et sauvegarder le fichier audio .mp3.",
+    "Étape 4: Valider l'exécution du script dans le bac à sable.",
+    "Étape 5: Transmettre le fichier audio finalisé sur le canal de communication (ex: Telegram)."
+  ],
+  "conditions_succes": "Le fichier audio MP3 avec la voix italienne native et féminine est généré sans erreur et transmis avec succès.",
+  "date_creation": "2026-08-23T19:24:15.258508",
+  "derniere_utilisation": "2026-08-23T19:24:15.258508",
+  "succes_compteur": 1
+}

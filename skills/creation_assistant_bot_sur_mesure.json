@@ -1,0 +1,23 @@
+{
+  "id": "creation_assistant_bot_sur_mesure",
+  "nom": "Création d'Assistant IA Spécialisé Métier (Bespoke/Artisanat)",
+  "declencheurs": [
+    "assistant bottier",
+    "sur mesure",
+    "bespoke",
+    "bot telegram vocal",
+    "assistant artisan"
+  ],
+  "description": "Déploie un écosystème d'assistant personnel et professionnel pour un artisan haut de gamme (bilingue FR/IT, gestion vocale simplifiée, notes Obsidian, classement clients, factures et rappels).",
+  "recette_etapes": [
+    "Étape 1: Initialiser la structure des dossiers métiers (clients, mesures, factures, agenda, notes atelier)",
+    "Étape 2: Configurer le pipeline de traitement des messages vocaux bilingues (français/italien) via Telegram",
+    "Étape 3: Mettre en place la synchronisation avec Obsidian pour structurer automatiquement les fiches clients et commandes",
+    "Étape 4: Établir le cœur du bot avec gestion automatisée des rappels, calculs d'atelier et analyse visuelle (factures/cuirs)",
+    "Étape 5: Configurer le service d'arrière-plan (démon macOS / launchd) pour assurer la persistance et le fonctionnement continu"
+  ],
+  "conditions_succes": "Tous les modules de configuration, pipelines vocaux et de synchronisation Obsidian sont testés, validés et enregistrés dans l'espace de travail de l'artisan.",
+  "date_creation": "2026-08-23T19:11:30.379944",
+  "derniere_utilisation": "2026-08-23T19:11:30.379944",
+  "succes_compteur": 1
+}

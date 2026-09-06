@@ -1,0 +1,20 @@
+{
+  "id": "gestion_fichier_introuvable",
+  "nom": "Gestion de fichier introuvable sur le Bureau",
+  "declencheurs": [
+    "lire fichier introuvable",
+    "rapport absent",
+    "fichier manquant bureau"
+  ],
+  "description": "Procédure à suivre lorsqu'un fichier demandé ne peut pas être localisé sur le système de fichiers.",
+  "recette_etapes": [
+    "Étape 1: Identifier le nom du fichier et le répertoire cible spécifié par l'utilisateur.",
+    "Étape 2: Utiliser l'outil de recherche de fichiers pour tenter de localiser le document.",
+    "Étape 3: Convalider l'absence du fichier si la recherche ne renvoie aucun résultat.",
+    "Étape 4: Informer l'utilisateur de l'introuvabilité du fichier et demander des précisions ou le chemin exact."
+  ],
+  "conditions_succes": "L'absence du fichier est confirmée et l'utilisateur est notifié clairement de l'impossibilité de poursuivre la lecture.",
+  "date_creation": "2026-08-25T01:46:00.473860",
+  "derniere_utilisation": "2026-08-25T01:54:00.655147",
+  "succes_compteur": 2
+}

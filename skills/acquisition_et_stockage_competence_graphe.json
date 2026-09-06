@@ -1,0 +1,20 @@
+{
+  "id": "acquisition_et_stockage_competence_graphe",
+  "nom": "Enregistrement et Capitalisation des Compétences Réussies",
+  "declencheurs": [
+    "sauvegarder competence",
+    "memoriser reussite",
+    "mettre dans les skills",
+    "capitaliser savoir faire"
+  ],
+  "description": "Formaliser et stocker de manière pérenne une compétence ou une relation opérationnelle validée dans le graphe de connaissances pour assurer son réemploi futur.",
+  "recette_etapes": [
+    "Étape 1: Identifier la tâche résolue avec succès et la valeur ajoutée ou l'intégration technique réalisée.",
+    "Étape 2: Formuler la relation clé (Source, Type de relation, Cible) décrivant l'acquisition de la compétence.",
+    "Étape 3: Utiliser l'outil d'enregistrement (ex: enregistrer_relation_graphe) pour persister l'information avec les détails contextuels."
+  ],
+  "conditions_succes": "La compétence est enregistrée dans le graphe avec des métadonnées claires permettant son identification et son amélioration ultérieure.",
+  "date_creation": "2026-08-25T18:17:17.847486",
+  "derniere_utilisation": "2026-08-25T18:17:17.847486",
+  "succes_compteur": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "verifier_repertoire_distance",
+  "nom": "Vérification du répertoire distant via SSH",
+  "declencheurs": [
+    "verifier repertoire",
+    "lister dossier ssh",
+    "ls distant"
+  ],
+  "description": "Vérifie l'existence et le contenu d'un répertoire spécifique sur un hôte distant en utilisant une commande SSH.",
+  "recette_etapes": [
+    "Étape 1: Identifier l'hôte distant, l'utilisateur et le chemin cible.",
+    "Étape 2: Exécuter la commande de listage (ex: 'ls -la') via l'outil d'exécution de commande SSH."
+  ],
+  "conditions_succes": "La commande SSH s'exécute avec succès et renvoie la liste des fichiers du répertoire cible.",
+  "date_creation": "2026-08-24T02:21:48.865662",
+  "derniere_utilisation": "2026-08-24T02:21:48.865662",
+  "succes_compteur": 1
+}

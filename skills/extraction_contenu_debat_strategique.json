@@ -1,0 +1,18 @@
+{
+  "id": "extraction_contenu_debat_strategique",
+  "nom": "Extraction et lecture de débat stratégique",
+  "declencheurs": [
+    "débat stratégique",
+    "lire fichier débat",
+    "analyser débat"
+  ],
+  "description": "Extraire et lire le contenu d'un fichier de débat stratégique depuis le second cerveau pour analyse ou suivi.",
+  "recette_etapes": [
+    "Étape 1: Identifier le chemin d'accès du fichier de débat stratégique dans le dossier cible.",
+    "Étape 2: Utiliser l'outil de lecture de fichier en spécifiant le chemin complet et le nombre maximal de lignes."
+  ],
+  "conditions_succes": "Le fichier de débat stratégique est correctement lu et son contenu est accessible pour la suite du traitement.",
+  "date_creation": "2026-08-25T01:35:07.325057",
+  "derniere_utilisation": "2026-08-25T01:35:07.325057",
+  "succes_compteur": 1
+}

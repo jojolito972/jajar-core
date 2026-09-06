@@ -1,0 +1,21 @@
+{
+  "id": "selectionner_et_indexer_20_ouvrages_pdf",
+  "nom": "Sélection et indexation de 20 ouvrages de référence PDF",
+  "declencheurs": [
+    "20 ouvrages",
+    "sélection de fichiers pdf",
+    "manifeste d'ouvrages",
+    "indexer des pdf"
+  ],
+  "description": "Explorer un répertoire local, filtrer les fichiers PDF pertinents (en excluant le bruit comme les partitions), générer un manifeste au format JSON contenant exactement 20 ouvrages, et les alimenter dans un carnet de notes numérique.",
+  "recette_etapes": [
+    "Étape 1: Parcourir le répertoire cible avec un script Python pour lister tous les fichiers PDF disponibles.",
+    "Étape 2: Filtrer les chemins de fichiers pour exclure le bruit indésirable (ex: partitions, fichiers non pertinents).",
+    "Étape 3: Sélectionner un sous-ensemble exact de 20 ouvrages et générer un fichier manifeste JSON.",
+    "Étape 4: Créer et alimenter un carnet de notes de référence (NotebookLM) avec la liste des chemins des 20 sources validées."
+  ],
+  "conditions_succes": "Un manifeste JSON de 20 ouvrages filtrés est généré et le carnet de notes est alimenté avec succès par ces 20 sources.",
+  "date_creation": "2026-08-24T04:02:13.765856",
+  "derniere_utilisation": "2026-08-24T04:02:13.765856",
+  "succes_compteur": 1
+}

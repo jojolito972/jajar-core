@@ -1,0 +1,22 @@
+{
+  "id": "bascule_mode_online_avion",
+  "nom": "Bascule de Mode de Connectivité JAJAR (Online / Avion)",
+  "declencheurs": [
+    "online",
+    "mode avion",
+    "bascule mode",
+    "local gemma",
+    "connecté"
+  ],
+  "description": "Permet de basculer l'environnement JAJAR entre un mode 100% local (Mode Avion via Gemma) et un mode connecté standard (Online) via un script de gestion de configuration.",
+  "recette_etapes": [
+    "Étape 1: Créer ou mettre à jour le script de bascule Python (`jajar_mode_switch.py`) gérant les arguments [avion|online|status].",
+    "Étape 2: Définir la persistance de l'état via un fichier de configuration (`~/.jajar_mode`) pour bloquer/autoriser les dépendances cloud.",
+    "Étape 3: Exécuter le script avec l'argument cible (ex: `python3 jajar_mode_switch.py online`) pour appliquer le mode souhaité.",
+    "Étape 4: Vérifier l'état global et les intégrations (Telegram, SSH, Gmail) pour valider le bon fonctionnement."
+  ],
+  "conditions_succes": "Le script de bascule s'exécute sans erreur, modifie correctement le fichier d'état et confirme l'activation du mode demandé (ex: 🌐 MODE ONLINE ACTIVÉ).",
+  "date_creation": "2026-08-25T19:05:35.500478",
+  "derniere_utilisation": "2026-08-25T19:05:35.500478",
+  "succes_compteur": 1
+}

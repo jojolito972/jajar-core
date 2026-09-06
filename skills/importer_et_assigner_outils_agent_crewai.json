@@ -1,0 +1,23 @@
+{
+  "id": "importer_et_assigner_outils_agent_crewai",
+  "nom": "Importer et assigner des outils à un agent CrewAI",
+  "declencheurs": [
+    "importer outils",
+    "confier outils agent",
+    "crewai agent tools",
+    "CSVSearchTool",
+    "DOCXSearchTool"
+  ],
+  "description": "Procédure pour importer des outils (comme CSVSearchTool, DOCXSearchTool, ScrapeWebsiteTool) et les assigner directement à un agent CrewAI dans un script Python validé.",
+  "recette_etapes": [
+    "Étape 1: Initialiser l'environnement virtuel et configurer la clé API factice si nécessaire pour les tests.",
+    "Étape 2: Importer la classe Agent de crewai ainsi que les classes d'outils nécessaires depuis crewai_tools.",
+    "Étape 3: Instancier les différents outils requis.",
+    "Étape 4: Créer l'objet Agent en lui transmettant la liste des outils instanciés via le paramètre 'tools'.",
+    "Étape 5: Valider le bon fonctionnement et l'association des outils via un script de test exécuté dans le bac à sable."
+  ],
+  "conditions_succes": "Le script s'exécute sans erreur et confirme l'initialisation correcte de l'agent avec le nombre d'outils attendu.",
+  "date_creation": "2026-08-24T13:39:10.954054",
+  "derniere_utilisation": "2026-08-24T13:39:10.954054",
+  "succes_compteur": 1
+}

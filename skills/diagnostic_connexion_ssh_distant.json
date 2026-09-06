@@ -1,0 +1,20 @@
+{
+  "id": "diagnostic_connexion_ssh_distant",
+  "nom": "Diagnostic de connexion SSH distant",
+  "declencheurs": [
+    "ssh",
+    "diagnostic distant",
+    "verifier hote",
+    "uname uptime"
+  ],
+  "description": "Établir une session SSH sur un hôte distant et exécuter des commandes de diagnostic système de base telles que uname et uptime.",
+  "recette_etapes": [
+    "Étape 1: Se connecter à l'hôte distant via SSH avec l'utilisateur spécifié.",
+    "Étape 2: Exécuter la commande de base 'uname -a' pour identifier le système d'exploitation et l'architecture.",
+    "Étape 3: Exécuter des commandes complémentaires comme 'uptime' pour vérifier l'état de fonctionnement et la charge du système."
+  ],
+  "conditions_succes": "Les commandes de diagnostic s'exécutent avec succès et retournent les informations système attendues de l'hôte distant.",
+  "date_creation": "2026-08-24T01:57:19.847995",
+  "derniere_utilisation": "2026-08-24T01:57:19.847995",
+  "succes_compteur": 1
+}

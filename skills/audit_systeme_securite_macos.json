@@ -1,0 +1,22 @@
+{
+  "id": "audit_systeme_securite_macos",
+  "nom": "Audit Système et Sécurité Profond sous macOS",
+  "declencheurs": [
+    "analyser ordi",
+    "audit systeme",
+    "verifier securite mac",
+    "problemes ordi",
+    "netstat",
+    "lancer audit"
+  ],
+  "description": "Réaliser un diagnostic approfondi du système macOS (espace disque, version OS, pare-feu, processus gourmands, ports en écoute, launchagents et kexts) via une suite de commandes shell.",
+  "recette_etapes": [
+    "Étape 1: Vérifier l'espace disque global, la version de l'OS (sw_vers), l'uptime, l'état du pare-feu et les processus les plus gourmands en CPU.",
+    "Étape 2: Inspecter les ports en écoute (réseau/TCP), les agents de lancement (LaunchAgents/Daemons) et l'état S.M.A.R.T. du disque.",
+    "Étape 3: Analyser les LaunchAgents spécifiques de l'utilisateur, les extensions de noyau tierces (kexts) et les privilèges courants (whoami/groups)."
+  ],
+  "conditions_succes": "Tous les rapports d'audit (système, sécurité, processus, réseau) ont été exécutés et remontés sans erreur majeure de syntaxe shell.",
+  "date_creation": "2026-08-29T18:33:26.827374",
+  "derniere_utilisation": "2026-08-29T18:33:26.827374",
+  "succes_compteur": 1
+}

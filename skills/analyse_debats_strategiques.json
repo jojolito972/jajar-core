@@ -1,0 +1,19 @@
+{
+  "id": "analyse_debats_strategiques",
+  "nom": "Analyse de Débats Stratégiques",
+  "declencheurs": [
+    "débat stratégique",
+    "analyser débat",
+    "dépouiller fichiers débats"
+  ],
+  "description": "Consulter et analyser des fichiers de débats stratégiques stockés dans le second cerveau pour en extraire les informations clés.",
+  "recette_etapes": [
+    "Étape 1: Identifier le chemin des fichiers de débats stratégiques ciblés dans le second cerveau.",
+    "Étape 2: Utiliser l'outil de lecture de fichier en spécifiant le chemin et un nombre de lignes adapté.",
+    "Étape 3: Analyser le contenu récupéré pour en dégager les conclusions ou décisions stratégiques."
+  ],
+  "conditions_succes": "Les fichiers de débats ont été lus avec succès et les informations pertinentes ont été extraites.",
+  "date_creation": "2026-08-25T01:37:40.350596",
+  "derniere_utilisation": "2026-08-25T01:37:40.350596",
+  "succes_compteur": 1
+}

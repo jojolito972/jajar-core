@@ -1,0 +1,19 @@
+{
+  "id": "lister_arborescence_vault_obsidian",
+  "nom": "Lister l'arborescence du second cerveau",
+  "declencheurs": [
+    "lister notes",
+    "arborescence second cerveau",
+    "afficher vault",
+    "alors c est parti"
+  ],
+  "description": "Explorer et afficher les notes présentes dans le second cerveau (Vault Obsidian).",
+  "recette_etapes": [
+    "Étape 1: Appeler l'outil `lister_arborescence_second_cerveau` sans arguments requis.",
+    "Étape 2: Récupérer et formater la liste des notes et dossiers retournés."
+  ],
+  "conditions_succes": "La liste des notes du Vault Obsidian est retournée et consultable.",
+  "date_creation": "2026-08-23T23:06:32.059146",
+  "derniere_utilisation": "2026-08-23T23:06:32.059146",
+  "succes_compteur": 1
+}

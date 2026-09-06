@@ -1,0 +1,23 @@
+{
+  "id": "calculer_cout_revient_sur_mesure",
+  "nom": "Calcul de Coût de Revient pour Article sur Mesure",
+  "declencheurs": [
+    "calculer coût",
+    "coût de revient",
+    "matières premières",
+    "main d'œuvre atelier",
+    "bottines sur mesure"
+  ],
+  "description": "Procédure pour estimer et structurer le coût de revient d'un produit artisanal sur mesure en combinant le coût des matières premières (avec coefficient de coupe) et le temps de main-d'œuvre appliqué à un taux horaire d'atelier.",
+  "recette_etapes": [
+    "Étape 1: Identifier et chiffrer les matières premières et fournitures nécessaires en incluant un coefficient de chute.",
+    "Étape 2: Estimer le temps de main-d'œuvre par poste de travail atelier (patronnage, coupe, montage, finitions).",
+    "Étape 3: Multiplier le temps total par le taux horaire de l'atelier pour obtenir le sous-total de la main-d'œuvre.",
+    "Étape 4: Sommer les sous-totaux des matières et de la main-d'œuvre pour obtenir le coût de revient total HT.",
+    "Étape 5: Formaliser le calcul dans un fichier Markdown structuré."
+  ],
+  "conditions_succes": "Le fichier de calcul est rédigé, validé et contient une ventilation claire entre matières, main-d'œuvre et coût total.",
+  "date_creation": "2026-08-23T20:58:22.891185",
+  "derniere_utilisation": "2026-08-23T20:58:22.891185",
+  "succes_compteur": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "maintenance_et_veille_autonome",
+  "nom": "Maintenance proactive et veille du second cerveau",
+  "declencheurs": [
+    "carte blanche",
+    "veille autonome",
+    "synchronisation proactive",
+    "nettoyage des e-mails"
+  ],
+  "description": "Procédure d'autonomie permettant à l'IA d'effectuer une maintenance préventive en synchronisant les bases de connaissances et en analysant les flux de communication récents (e-mails) sans consigne spécifique.",
+  "recette_etapes": [
+    "Étape 1: Lancer une synchronisation initiale du second cerveau pour garantir l'intégrité et la mise à jour des données locales.",
+    "Étape 2: Analyser et synthétiser les derniers messages e-mails (ex: 50 derniers) pour identifier les actions en suspens ou les informations critiques.",
+    "Étape 3: Effectuer une seconde synchronisation du second cerveau pour y intégrer les synthèses et insights issus des e-mails traités."
+  ],
+  "conditions_succes": "Les flux de données sont à jour, les e-mails pertinents ont été synthétisés dans le système et le second cerveau est totalement synchronisé.",
+  "date_creation": "2026-08-24T04:06:46.114213",
+  "derniere_utilisation": "2026-08-24T04:06:46.114213",
+  "succes_compteur": 1
+}

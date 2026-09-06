@@ -1,0 +1,22 @@
+{
+  "id": "debat_multidisciplinaire_studio",
+  "nom": "Analyse et Débat Multi-Agents sur une Idée ou un Code",
+  "declencheurs": [
+    "analyser et debater",
+    "qualité et pertinence",
+    "options puissantes et refléchies",
+    "choisir plusieurs options",
+    "orchestrer_debat_studio"
+  ],
+  "description": "Mobiliser plusieurs agents spécialisés (Tesla, Cleo, Ray, etc.) pour débattre et analyser en profondeur la viabilité, la qualité et la pertinence d'une idée ou d'un code, afin de restituer des options stratégiques combinées et argumentées.",
+  "recette_etapes": [
+    "Étape 1: Identifier le sujet complexe, l'idée technique ou le code à évaluer soumis par l'utilisateur.",
+    "Étape 2: Sélectionner les profils d'agents pertinents en fonction des expertises requises (ex: technique, design, architecture, stratégie).",
+    "Étape 3: Lancer l'orchestration du débat via l'outil dédié (ex: orchestrer_debat_studio) pour confronter les points de vue.",
+    "Étape 4: Synthétiser les arguments, identifier les forces/faiblesses et formuler plusieurs options puissantes et réfléchies (avec une recommandation claire ou une combinaison optimale)."
+  ],
+  "conditions_succes": "Le débat multi-agents a généré des perspectives contradictoires ou complémentaires, aboutissant à une synthèse claire offrant des options d'implémentation robustes et justifiées.",
+  "date_creation": "2026-08-25T02:20:37.816249",
+  "derniere_utilisation": "2026-08-25T02:20:37.816249",
+  "succes_compteur": 1
+}

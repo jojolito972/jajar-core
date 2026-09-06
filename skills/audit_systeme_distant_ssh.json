@@ -1,0 +1,20 @@
+{
+  "id": "audit_systeme_distant_ssh",
+  "nom": "Audit rapide de système distant via SSH",
+  "declencheurs": [
+    "audit ssh",
+    "verifier systeme distant",
+    "inspecter etat serveur"
+  ],
+  "description": "Exécute une série de commandes de diagnostic (uptime, processus clés, fichiers récents) sur un hôte distant via SSH.",
+  "recette_etapes": [
+    "Étape 1: Se connecter à l'hôte distant via la commande SSH.",
+    "Étape 2: Afficher l'état du système (uptime).",
+    "Étape 3: Filtrer et afficher les processus en cours pertinents (python, node, gateway, bridge, docker, pm2).",
+    "Étape 4: Lister les fichiers et configurations récents du répertoire utilisateur."
+  ],
+  "conditions_succes": "La commande SSH s'exécute avec succès et retourne les informations d'état du système distant sans erreur critique.",
+  "date_creation": "2026-08-24T01:39:44.271496",
+  "derniere_utilisation": "2026-08-24T01:39:44.271496",
+  "succes_compteur": 1
+}

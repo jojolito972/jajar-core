@@ -1,0 +1,19 @@
+{
+  "id": "verification_etat_llm",
+  "nom": "Vérification et bascule de l'interface LLM courante",
+  "declencheurs": [
+    "sur quel llm",
+    "quel modele",
+    "je suis sur kimi",
+    "switch_llm"
+  ],
+  "description": "Identifier ou basculer l'interface de LLM active via un script système dédié.",
+  "recette_etapes": [
+    "Étape 1: Exécuter le script de gestion des LLM (/Users/denmac/switch_llm.py) pour identifier l'état actuel ou effectuer une bascule.",
+    "Étape 2: Analyser le retour de la commande pour confirmer le LLM actif."
+  ],
+  "conditions_succes": "Le script s'exécute sans erreur et retourne l'information sur le LLM actuellement utilisé.",
+  "date_creation": "2026-08-29T17:14:06.020038",
+  "derniere_utilisation": "2026-08-29T17:14:06.020038",
+  "succes_compteur": 1
+}

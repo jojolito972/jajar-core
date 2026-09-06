@@ -1,0 +1,20 @@
+{
+  "id": "verifier_modele_ollama",
+  "nom": "Vérification de l'exécution et de la disponibilité des modèles Ollama",
+  "declencheurs": [
+    "lance le modele gemma",
+    "verifier ollama",
+    "modele actif ollama",
+    "gemma en cours d execution"
+  ],
+  "description": "Vérifie si le démon Ollama tourne en arrière-plan et liste les modèles disponibles sur la machine pour s'assurer qu'un modèle spécifique (comme Gemma) peut être utilisé.",
+  "recette_etapes": [
+    "Étape 1: Exécuter une commande shell pour vérifier si le processus ollama est actif avec pgrep.",
+    "Étape 2: Lister les modèles locaux installés via la commande `ollama list` pour confirmer la présence du modèle cible.",
+    "Étape 3: Analyser la sortie pour valider que le service répond et que le modèle est prêt à être invoqué."
+  ],
+  "conditions_succes": "Le processus Ollama est détecté comme actif et la liste des modèles renvoie le modèle recherché sans erreur de connexion.",
+  "date_creation": "2026-08-25T19:06:54.269860",
+  "derniere_utilisation": "2026-08-25T19:06:54.269860",
+  "succes_compteur": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "creer_et_generer_podcast_notebooklm",
+  "nom": "Création de carnet et génération de podcast audio via NotebookLM",
+  "declencheurs": [
+    "test studio",
+    "generer podcast",
+    "carnet notebooklm",
+    "audio notebooklm"
+  ],
+  "description": "Automatiser la création d'un carnet NotebookLM à partir de sources du second cerveau, l'interroger et générer un podcast audio orienté par des instructions spécifiques.",
+  "recette_etapes": [
+    "Étape 1: Lister l'arborescence du second cerveau pour identifier les sources documentaires pertinentes.",
+    "Étape 2: Vérifier la session active de NotebookLM pour s'assurer de l'authentification et de la connectivité.",
+    "Étape 3: Créer et alimenter un nouveau carnet NotebookLM avec les fichiers cibles identifiés.",
+    "Étape 4: Interroger le carnet pour valider l'indexation et extraire les principes clés ou orientations stratégiques.",
+    "Étape 5: Générer le podcast audio en configurant les instructions de focus et le nom du fichier de sortie."
+  ],
+  "conditions_succes": "Le carnet est créé, alimenté, interrogé avec succès et le fichier audio du podcast est généré conformément aux instructions.",
+  "date_creation": "2026-08-25T18:20:52.076196",
+  "derniere_utilisation": "2026-08-25T18:20:52.076196",
+  "succes_compteur": 1
+}

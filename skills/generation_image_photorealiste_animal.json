@@ -1,0 +1,22 @@
+{
+  "id": "generation_image_photorealiste_animal",
+  "nom": "Génération d'image photoréaliste d'animal",
+  "declencheurs": [
+    "image de chien",
+    "photo de chien",
+    "générer image chien",
+    "fais moi une image de chien",
+    "image d'animal"
+  ],
+  "description": "Enrichir une requête simple de création d'image d'animal en un prompt photographique détaillé en anglais pour obtenir un rendu haute définition et cinématographique.",
+  "recette_etapes": [
+    "Étape 1: Traduire le sujet en anglais et préciser les détails visuels (race, posture, décor naturel).",
+    "Étape 2: Incorporer des descripteurs de style et de qualité photographique (ex: ultra realistic photograph, golden hour lighting, soft bokeh background, 8k resolution, cinematic atmosphere).",
+    "Étape 3: Sélectionner un ratio d'aspect adapté au sujet (ex: 16:9).",
+    "Étape 4: Exécuter l'outil 'generer_image' avec le prompt enrichi et le ratio configuré."
+  ],
+  "conditions_succes": "Une image haute définition photoréaliste correspondant au sujet est générée sans erreur.",
+  "date_creation": "2026-08-25T18:03:51.607641",
+  "derniere_utilisation": "2026-08-25T18:03:51.607641",
+  "succes_compteur": 1
+}

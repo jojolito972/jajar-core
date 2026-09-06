@@ -1,0 +1,22 @@
+{
+  "id": "generation_image_faune_photorealiste",
+  "nom": "Génération d'images photoréalistes de faune",
+  "declencheurs": [
+    "image d'un animal",
+    "photo d'oiseau",
+    "pigeon sur une branche",
+    "visuel animalier"
+  ],
+  "description": "Produire une image de haute qualité d'un animal dans son habitat naturel en optimisant le prompt pour le réalisme, la texture et l'éclairage cinématique.",
+  "recette_etapes": [
+    "Étape 1: Identifier l'animal sujet et son environnement immédiat (ex: pigeon sur une branche moussue).",
+    "Étape 2: Structurer le prompt en anglais pour maximiser la précision technique (cinematic close-up, photorealistic, 8k).",
+    "Étape 3: Ajouter des descripteurs de texture et de lumière (feather textures, iridescent highlights, golden morning light).",
+    "Étape 4: Définir les paramètres de composition photographique (shallow depth of field, sharp focus).",
+    "Étape 5: Appeler l'outil generer_image avec le prompt enrichi et le ratio d'aspect (ex: 16:9)."
+  ],
+  "conditions_succes": "L'image générée présente un sujet net avec des détails de texture visibles et une ambiance lumineuse cohérente.",
+  "date_creation": "2026-08-25T00:21:06.195047",
+  "derniere_utilisation": "2026-08-25T00:21:06.195047",
+  "succes_compteur": 1
+}

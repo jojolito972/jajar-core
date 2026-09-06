@@ -1,0 +1,18 @@
+{
+  "id": "bascule_mode_avion",
+  "nom": "Bascule en mode avion",
+  "declencheurs": [
+    "avion",
+    "mode avion",
+    "jajar_mode_switch"
+  ],
+  "description": "Activer le mode avion sur le système via le script de gestion des modes de JAJAR.",
+  "recette_etapes": [
+    "Étape 1: Identifier la commande système ou le script de bascule de mode approprié.",
+    "Étape 2: Exécuter le script '/Users/denmac/jajar_mode_switch.py' avec l'argument 'avion' dans le répertoire de travail cible."
+  ],
+  "conditions_succes": "Le script s'exécute avec succès et le mode avion est activé sur le système.",
+  "date_creation": "2026-08-25T19:06:10.268532",
+  "derniere_utilisation": "2026-08-25T19:06:10.268532",
+  "succes_compteur": 1
+}

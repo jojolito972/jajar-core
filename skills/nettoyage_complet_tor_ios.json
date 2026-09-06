@@ -1,0 +1,20 @@
+{
+  "id": "nettoyage_complet_tor_ios",
+  "nom": "Suppression complète de Tor et réinitialisation des connexions réseau (iOS/macOS distant)",
+  "declencheurs": [
+    "supprimer tor",
+    "nettoyer connexions internet",
+    "supprimer traces tor",
+    "clean reseau ios"
+  ],
+  "description": "Supprime l'application Tor, ses données associées, vide les caches DNS et réseau tout en préservant les autres navigateurs (ex. LibreWolf) sur une cible distante via SSH.",
+  "recette_etapes": [
+    "Étape 1: Se connecter à la cible via SSH et supprimer les binaires, bundles et répertoires de données de Tor (Applications, Application Support, caches, préférences, états de sauvegarde, logs).",
+    "Étape 2: Tuer les processus résiduels de Tor et vider le cache DNS système (dscacheutil).",
+    "Étape 3: Effectuer une vérification post-nettoyage en listant les processus actifs et le dossier Applications pour confirmer l'absence de traces de Tor."
+  ],
+  "conditions_succes": "Aucun processus Tor actif et aucune trace de l'application Tor dans les dossiers système ou utilisateur.",
+  "date_creation": "2026-08-24T02:49:27.115489",
+  "derniere_utilisation": "2026-08-24T02:49:27.115489",
+  "succes_compteur": 1
+}

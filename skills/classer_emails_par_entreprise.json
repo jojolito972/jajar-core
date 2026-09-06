@@ -1,0 +1,21 @@
+{
+  "id": "classer_emails_par_entreprise",
+  "nom": "Classement des emails par sous-dossier d'entreprise",
+  "declencheurs": [
+    "classer les mails",
+    "sous dossier par titre entreprise",
+    "trier les emails par société"
+  ],
+  "description": "Organise et classe une sélection d'emails dans des sous-dossiers dédiés par nom d'entreprise, en générant des fichiers structurés (ex: Markdown) pour un meilleur suivi.",
+  "recette_etapes": [
+    "Étape 1: Récupérer la liste des emails récents avec leurs métadonnées (expéditeur, sujet).",
+    "Étape 2: Élaborer un script de traitement pour nettoyer les noms d'entreprises et de sujets afin de les rendre compatibles avec le système de fichiers.",
+    "Étape 3: Créer récursivement l'arborescence des dossiers par entreprise dans le répertoire cible (ex: Obsidian Vault).",
+    "Étape 4: Générer un fichier structuré (ex: .md) pour chaque email contenant ses métadonnées et son contenu dans le dossier de l'entreprise correspondante.",
+    "Étape 5: Exécuter et valider le script de classement."
+  ],
+  "conditions_succes": "Les emails sont correctement regroupés et écrits dans des sous-dossiers distincts nommés d'après chaque entreprise sans erreur de syntaxe système.",
+  "date_creation": "2026-08-24T00:06:19.959603",
+  "derniere_utilisation": "2026-08-24T00:06:19.959603",
+  "succes_compteur": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "audit_optimisation_code_python_machine_guerre",
+  "nom": "Audit et Optimisation Avancée de Code Python (Machine de Guerre)",
+  "declencheurs": [
+    "analyse profonde code python",
+    "ameliorer code python",
+    "machine de guerre",
+    "optimiser performances python"
+  ],
+  "description": "Réaliser un audit statique d'une base de code Python, identifier les goulots d'étranglement (blocs bloquants comme time.sleep, TODOs, exceptions larges), installer des accélérateurs hautes performances (uvloop, orjson) et appliquer des scripts d'optimisation ciblés.",
+  "recette_etapes": [
+    "Étape 1: Parcourir récursivement la base de code pour inventorier les fichiers Python, compter les lignes, et détecter les marqueurs de dette technique (TODO, except larges, time.sleep bloquants).",
+    "Étape 2: Isoler les répertoires applicatifs clés en excluant les environnements virtuels et le cache (.git, venv).",
+    "Étape 3: Installer des accélérateurs natifs haute performance (ex: pip install uvloop orjson).",
+    "Étape 4: Écrire et exécuter un script d'automatisation ciblé pour annoter ou remplacer les pratiques bloquantes (ex: time.sleep par des alternatives asynchrones).",
+    "Étape 5: Valider l'intégrité de la base de code via une compilation globale (python3 -m compileall)."
+  ],
+  "conditions_succes": "La base de code est entièrement auditée, les accélérateurs sont installés et vérifiés, et la compilation globale de tous les fichiers Python s'exécute sans erreur de syntaxe.",
+  "date_creation": "2026-09-02T18:49:45.403960",
+  "derniere_utilisation": "2026-09-02T18:49:45.403960",
+  "succes_compteur": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "creer_backup_systeme_timestamp",
+  "nom": "Création de sauvegarde système horodatée",
+  "declencheurs": [
+    "backup",
+    "sauvegarde",
+    "conserver l'état",
+    "copie de sécurité"
+  ],
+  "description": "Créer une sauvegarde sécurisée et horodatée d'un répertoire de projet avant d'exécuter des opérations lourdes ou de basculer de mode.",
+  "recette_etapes": [
+    "Générer un horodatage unique au format AAAAMMJJ_HHMMSS.",
+    "Définir le dossier de destination pour les sauvegardes.",
+    "Créer le répertoire de destination s'il n'existe pas.",
+    "Copier récursivement les fichiers source vers le répertoire de sauvegarde.",
+    "Vérifier la création du backup en listant le contenu du dossier."
+  ],
+  "conditions_succes": "Le dossier de backup est créé avec succès, contient l'intégralité des fichiers sources et l'horodatage est valide.",
+  "date_creation": "2026-09-02T18:45:41.885956",
+  "derniere_utilisation": "2026-09-02T18:45:41.885956",
+  "succes_compteur": 1
+}

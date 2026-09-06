@@ -1,0 +1,20 @@
+{
+  "id": "extraction_etl_emails_obsidian_synchronisation",
+  "nom": "Extraction ETL d'emails vers Obsidian et synchronisation du second cerveau",
+  "declencheurs": [
+    "extraire emails",
+    "sync obsidian",
+    "traiter emlx",
+    "second cerveau 2025"
+  ],
+  "description": "Automatise l'extraction et la structuration d'emails au format Obsidian pour une année spécifique, suivie de la synchronisation vectorielle du second cerveau.",
+  "recette_etapes": [
+    "Étape 1: Exécuter l'outil d'extraction ETL des emails (ex: traiter_emails_emlx_vers_obsidian_complet) en filtrant sur l'année cible et en définissant le volume maximal.",
+    "Étape 2: Vérifier la création de la note de synthèse structurée dans Obsidian.",
+    "Étape 3: Lancer la synchronisation du second cerveau pour indexer les nouvelles notes et passages via l'embedding local."
+  ],
+  "conditions_succes": "La note de synthèse Obsidian est correctement générée et le vault est entièrement synchronisé avec le moteur d'embedding.",
+  "date_creation": "2026-08-23T18:39:42.850713",
+  "derniere_utilisation": "2026-08-23T18:39:42.850713",
+  "succes_compteur": 1
+}

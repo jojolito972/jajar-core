@@ -1,0 +1,20 @@
+{
+  "id": "gestion_option_future_et_memoire",
+  "nom": "Mise en mémoire et retrait d'une option pour usage ultérieur",
+  "declencheurs": [
+    "enlève l'option",
+    "mettra plus tard",
+    "garde la en mémoire",
+    "utile plus tard"
+  ],
+  "description": "Retirer une option ou une fonctionnalité d'un flux actuel tout en la préservant et en documentant sa structure pour une réutilisation future.",
+  "recette_etapes": [
+    "Étape 1: Identifier l'option ou la fonctionnalité à retirer du périmètre immédiat.",
+    "Étape 2: S'assurer que le code ou la configuration actuelle fonctionne sans cette option.",
+    "Étape 3: Sauvegarder l'état, le script ou la logique de l'option (ex: dans un fichier ou un script dédié) pour y accéder facilement plus tard."
+  ],
+  "conditions_succes": "L'option est retirée du flux principal sans perturber le fonctionnement actuel et sa logique est préservée pour une réutilisation future.",
+  "date_creation": "2026-08-25T21:21:10.885171",
+  "derniere_utilisation": "2026-08-25T21:21:10.885171",
+  "succes_compteur": 1
+}

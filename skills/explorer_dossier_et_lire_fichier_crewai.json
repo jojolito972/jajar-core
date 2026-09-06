@@ -1,0 +1,21 @@
+{
+  "id": "explorer_dossier_et_lire_fichier_crewai",
+  "nom": "Explorer un dossier et lire un fichier avec CrewAI Tools",
+  "declencheurs": [
+    "DirectoryReadTool",
+    "FileReadTool",
+    "explorer dossier",
+    "lire fichier texte"
+  ],
+  "description": "Permet d'explorer un répertoire local pour lister son contenu via DirectoryReadTool et de lire le contenu textuel d'un fichier spécifique via FileReadTool en utilisant la bibliothèque crewai_tools.",
+  "recette_etapes": [
+    "Importer DirectoryReadTool et FileReadTool depuis crewai_tools.",
+    "Instancier DirectoryReadTool en lui passant le chemin du dossier cible pour lister ses fichiers.",
+    "Instancier FileReadTool en lui passant le chemin complet du fichier cible pour en extraire le contenu textuel.",
+    "Exécuter la méthode run() sur chaque outil pour obtenir les résultats."
+  ],
+  "conditions_succes": "La liste des fichiers du répertoire est récupérée avec succès et le contenu du fichier cible est lu et affiché sans erreur.",
+  "date_creation": "2026-08-24T13:31:51.794383",
+  "derniere_utilisation": "2026-08-24T13:31:51.794383",
+  "succes_compteur": 1
+}

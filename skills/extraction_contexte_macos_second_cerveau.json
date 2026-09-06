@@ -1,0 +1,21 @@
+{
+  "id": "extraction_contexte_macos_second_cerveau",
+  "nom": "Extraction du contexte personnel et des faits macOS",
+  "declencheurs": [
+    "rappels_macos",
+    "notes_macos",
+    "second_cerveau",
+    "faits_et_reflexions"
+  ],
+  "description": "Récupérer et analyser les informations contextuelles de l'utilisateur à partir des rappels, notes et du système de fichiers du second cerveau sur macOS.",
+  "recette_etapes": [
+    "Étape 1: Lire les rappels macOS non terminés pour capturer les tâches en cours.",
+    "Étape 2: Lire les notes macOS récentes pour identifier les pensées ou informations rapides.",
+    "Étape 3: Lister l'arborescence du second cerveau pour cartographier les sources de connaissances.",
+    "Étape 4: Lire le fichier central des faits et réflexions pour ancrer les actions dans la mémoire à long terme de l'utilisateur."
+  ],
+  "conditions_succes": "Les faits et données contextuels de macOS et du second cerveau sont récupérés et consolidés pour orienter les actions suivantes.",
+  "date_creation": "2026-08-29T17:37:57.499413",
+  "derniere_utilisation": "2026-08-29T17:37:57.499413",
+  "succes_compteur": 1
+}

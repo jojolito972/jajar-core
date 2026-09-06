@@ -1,0 +1,18 @@
+{
+  "id": "audit_reseau_taches_fond",
+  "nom": "Audit du réseau local et inspection des processus en arrière-plan",
+  "declencheurs": [
+    "scan complet du réseau local",
+    "détecter appareils connectés",
+    "vérifier le réseau et processus"
+  ],
+  "description": "Scanner le réseau local pour recenser les appareils connectés et contrôler la présence ou l'état des tâches exécutées en arrière-plan.",
+  "recette_etapes": [
+    "Étape 1: Lancer le scan du réseau local via la fonction scanner_reseau_local.",
+    "Étape 2: Vérifier les processus actifs et tâches de fond via la fonction verifier_taches_arriere_plan."
+  ],
+  "conditions_succes": "La liste des équipements réseau connectés est établie et l'état des processus d'arrière-plan est récupéré.",
+  "date_creation": "2026-08-24T11:43:34.532644",
+  "derniere_utilisation": "2026-08-24T11:43:34.532644",
+  "succes_compteur": 1
+}

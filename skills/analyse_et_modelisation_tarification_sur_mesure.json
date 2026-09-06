@@ -1,0 +1,22 @@
+{
+  "id": "analyse_et_modelisation_tarification_sur_mesure",
+  "nom": "Analyse et modélisation de la tarification pour produits de luxe sur-mesure",
+  "declencheurs": [
+    "vrai sur mesure",
+    "prix sur internet",
+    "botterie bespoke",
+    "calcul cout",
+    "grille tarifaire"
+  ],
+  "description": "Analyser les prix du marché pour une prestation artisanale de véritable sur-mesure (bespoke) et formaliser un modèle de coût de revient détaillé incluant la production, les prestations spécifiques et la structure de marge cible.",
+  "recette_etapes": [
+    "Étape 1: Effectuer une recherche web pour identifier les prix du marché sur-mesure (ex: bottier, bespoke).",
+    "Étape 2: Rédiger un fichier Markdown de calcul de coût et de grille tarifaire intégrant le coût direct, les prestations spécifiques et la marge cible.",
+    "Étape 3: Valider l'écriture du document dans un bac à sable technique.",
+    "Étape 4: Déployer le document validé vers le répertoire de destination final."
+  ],
+  "conditions_succes": "Le document de tarification structuré et justifié est généré, validé et déployé avec succès.",
+  "date_creation": "2026-08-23T23:31:03.519681",
+  "derniere_utilisation": "2026-08-23T23:31:03.519681",
+  "succes_compteur": 1
+}

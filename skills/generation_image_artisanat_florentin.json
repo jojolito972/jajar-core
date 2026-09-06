@@ -1,0 +1,20 @@
+{
+  "id": "generation_image_artisanat_florentin",
+  "nom": "Génération d'image d'atelier d'artisan bottier florentin",
+  "declencheurs": [
+    "atelier d'artisan bottier",
+    "Florence",
+    "peaux de cuir suspendues",
+    "générer une image d'artisanat"
+  ],
+  "description": "Création d'un visuel photoréaliste d'un atelier traditionnel de bottier à Florence avec des éléments caractéristiques comme des cuirs suspendus et un établi en bois.",
+  "recette_etapes": [
+    "Étape 1: Formuler un prompt descriptif incluant le lieu (Florence), l'artisan, l'environnement (établi, outils vintage, formes en bois) et les détails visuels (peaux de cuir suspendues, éclairage cinématographique).",
+    "Étape 2: Définir le ratio d'aspect adapté (ex: 16:9 pour une vue immersive de l'atelier).",
+    "Étape 3: Appeler l'outil de génération d'image avec le prompt et le ratio configurés."
+  ],
+  "conditions_succes": "L'image générée respecte les critères esthétiques et contextuels demandés, offrant un rendu photoréaliste et détaillé de l'atelier florentin.",
+  "date_creation": "2026-08-24T18:33:11.251607",
+  "derniere_utilisation": "2026-08-24T18:33:11.251607",
+  "succes_compteur": 1
+}

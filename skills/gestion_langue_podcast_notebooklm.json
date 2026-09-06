@@ -1,0 +1,20 @@
+{
+  "id": "gestion_langue_podcast_notebooklm",
+  "nom": "Génération de Podcast en Français avec NotebookLM",
+  "declencheurs": [
+    "podcast en anglais",
+    "mettre en francais",
+    "changer la langue du podcast",
+    "experience en francais"
+  ],
+  "description": "Procédure pour forcer la génération d'un podcast audio en langue française via les instructions de focus dans NotebookLM lorsque le résultat par défaut est en anglais.",
+  "recette_etapes": [
+    "Étape 1: Identifier le besoin de l'utilisateur d'avoir le contenu en français.",
+    "Étape 2: Utiliser l'outil de génération audio en injectant des instructions de focus strictes et explicites (ex: 'Parlez EXCLUSIVEMENT EN FRANÇAIS').",
+    "Étape 3: Spécifier un nom de fichier de sortie clair et explicite."
+  ],
+  "conditions_succes": "Le fichier audio du podcast est généré et restitué en langue française conformément aux instructions de focus.",
+  "date_creation": "2026-08-25T18:55:59.357690",
+  "derniere_utilisation": "2026-08-25T18:55:59.357690",
+  "succes_compteur": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "extraction_metadonnees_instagram_reel",
+  "nom": "Extraction des métadonnées d'un Reel Instagram",
+  "declencheurs": [
+    "instagram",
+    "reel",
+    "yt-dlp",
+    "lien instagram",
+    "recuperer infos video"
+  ],
+  "description": "Extraire les métadonnées et informations techniques d'un Reel Instagram en utilisant yt-dlp via une commande shell.",
+  "recette_etapes": [
+    "Étape 1: Identifier l'URL du Reel Instagram cible fourni dans la discussion.",
+    "Étape 2: Préparer la commande shell utilisant l'outil 'yt-dlp' avec l'option '-j' pour obtenir le JSON des métadonnées.",
+    "Étape 3: Exécuter la commande dans le répertoire de travail approprié via l'outil 'executer_commande_shell'."
+  ],
+  "conditions_succes": "Les métadonnées JSON de la vidéo Instagram sont retournées avec succès par la commande yt-dlp.",
+  "date_creation": "2026-08-29T17:49:46.441557",
+  "derniere_utilisation": "2026-08-29T17:49:46.441557",
+  "succes_compteur": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "audit_stockage_systeme",
+  "nom": "Audit et Analyse de l'Espace Disque",
+  "declencheurs": [
+    "scan ordi",
+    "espace disque",
+    "nettoyer mac",
+    "bordel ordi"
+  ],
+  "description": "Analyser l'utilisation du disque et inspecter le contenu des dossiers critiques (Téléchargements, Bureau) pour identifier le désordre et les gros fichiers.",
+  "recette_etapes": [
+    "Étape 1: Analyser l'espace disque global et identifier les plus gros dossiers cibles via l'outil d'analyse de disque.",
+    "Étape 2: Exécuter des commandes shell de vérification de l'espace disque disponible (df -h).",
+    "Étape 3: Lister les éléments présents dans les dossiers à fort trafic comme ~/Downloads et ~/Desktop pour établir un diagnostic."
+  ],
+  "conditions_succes": "Un rapport clair sur l'occupation du disque et un aperçu des fichiers encombrants des dossiers principaux sont générés.",
+  "date_creation": "2026-08-25T00:22:46.851042",
+  "derniere_utilisation": "2026-08-25T00:22:46.851042",
+  "succes_compteur": 1
+}

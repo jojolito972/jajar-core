@@ -1,0 +1,37 @@
+# Cœur agent
+python-dotenv
+pydantic>=2.0
+
+# Modèle local (API compatible OpenAI, ex. llama.cpp / llama-server)
+openai
+
+# Google Gemini (cloud : escalade, image, embeddings, consolidation nocturne)
+google-genai
+
+# Telegram (mode `python run_jarvis.py telegram`)
+python-telegram-bot>=21.0
+
+# Dashboard live (traces en direct)
+textual
+rich
+
+# Recherche et lecture web (à rebrancher, voir tools_legacy/web_browser_tool.py)
+ddgs
+beautifulsoup4
+requests
+
+# Mémoire locale (Second Cerveau) — recherche sémantique réelle (embeddings)
+lancedb>=0.25
+pyarrow
+
+# Voix Kokoro-82M (facultatif, nécessaire seulement si tu portes la boucle
+# vocale mains-libres — voir docs/MIGRATION.md)
+# kokoro-onnx
+# soundfile
+# SpeechRecognition
+# PyAudio
+
+# Dépendances système à installer séparément (pas via pip) :
+#   brew install ffmpeg      -> notes vocales Telegram
+#   brew install espeak-ng   -> Kokoro (français/italien)
+#   brew install chafa       -> visionner une image dans le terminal

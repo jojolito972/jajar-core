@@ -1,0 +1,22 @@
+{
+  "id": "configurer_cle_api_huggingface",
+  "nom": "Configuration de la clé API Hugging Face et intégration FLUX",
+  "declencheurs": [
+    "clef api",
+    "hugging face",
+    "flux.1-dev",
+    "generer_image",
+    ".env"
+  ],
+  "description": "Configurer la clé API Hugging Face dans le fichier .env et localiser l'outil de génération d'image associé dans le projet.",
+  "recette_etapes": [
+    "Étape 1: Lire le fichier .env existant pour vérifier la structure.",
+    "Étape 2: Assigner correctement la clé API Hugging Face à la variable d'environnement adéquate (ex: HUGGINGFACE_API_KEY).",
+    "Étape 3: Vérifier le chargement effectif de la clé via un script Python avec python-dotenv.",
+    "Étape 4: Rechercher dans l'arborescence du projet les fichiers et fonctions gérant la génération d'images (ex: 'generer_image')."
+  ],
+  "conditions_succes": "La clé API est enregistrée et validée dans le fichier .env et l'emplacement de l'outil de génération d'images est identifié.",
+  "date_creation": "2026-08-24T18:24:36.006973",
+  "derniere_utilisation": "2026-08-24T18:24:36.006973",
+  "succes_compteur": 1
+}

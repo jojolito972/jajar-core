@@ -1,0 +1,19 @@
+{
+  "id": "suivi_generation_podcast_audio",
+  "nom": "Suivi et notification de fin de génération de podcast audio",
+  "declencheurs": [
+    "podcast est fini",
+    "quand le podcast est prêt",
+    "état du podcast audio"
+  ],
+  "description": "Vérifier l'état d'avancement d'une tâche de génération de podcast en arrière-plan et notifier l'utilisateur dès qu'elle est terminée.",
+  "recette_etapes": [
+    "Étape 1: Lancer ou identifier la génération du podcast audio via l'outil de création (ex: NotebookLM).",
+    "Étape 2: Interroger régulièrement l'état des tâches en arrière-plan pour suivre la progression.",
+    "Étape 3: Confirmer la fin du traitement et notifier l'utilisateur de la disponibilité du fichier de sortie."
+  ],
+  "conditions_succes": "La tâche en arrière-plan est marquée comme complétée et le fichier audio final est accessible.",
+  "date_creation": "2026-08-25T18:37:33.951387",
+  "derniere_utilisation": "2026-08-25T18:37:33.951387",
+  "succes_compteur": 1
+}

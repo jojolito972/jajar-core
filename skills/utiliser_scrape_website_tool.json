@@ -1,0 +1,19 @@
+{
+  "id": "utiliser_scrape_website_tool",
+  "nom": "Extraction de texte web avec ScrapeWebsiteTool",
+  "declencheurs": [
+    "scrape website tool",
+    "extraire texte page web",
+    "scraper site web crewai"
+  ],
+  "description": "Initialiser et utiliser ScrapeWebsiteTool pour extraire automatiquement le texte propre d'une page web sans le code HTML.",
+  "recette_etapes": [
+    "Étape 1: Importer ScrapeWebsiteTool depuis le module crewai_tools.",
+    "Étape 2: Initialiser l'outil ScrapeWebsiteTool sans arguments requis pour les cas standards.",
+    "Étape 3: Utiliser l'instance pour cibler et extraire le contenu textuel propre d'une URL."
+  ],
+  "conditions_succes": "L'outil ScrapeWebsiteTool est instancié avec succès et prêt à être utilisé pour l'extraction de données web.",
+  "date_creation": "2026-08-24T13:36:05.096137",
+  "derniere_utilisation": "2026-08-24T13:36:05.096137",
+  "succes_compteur": 1
+}

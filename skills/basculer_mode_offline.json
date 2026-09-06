@@ -1,0 +1,20 @@
+{
+  "id": "basculer_mode_offline",
+  "nom": "Basculer le système en mode offline",
+  "declencheurs": [
+    "offline",
+    "mode hors ligne",
+    "couper internet",
+    "basculer en offline"
+  ],
+  "description": "Exécute un script de bascule vers le mode offline et vérifie l'état des processus locaux (Ollama/Llama).",
+  "recette_etapes": [
+    "Étape 1: Exécuter le script de bascule de mode avec l'argument 'offline' via la commande shell.",
+    "Étape 2: Attendre brièvement que l'état du système se stabilise (ex: sleep 2).",
+    "Étape 3: Vérifier les processus actifs liés à l'IA locale (Ollama/Llama) pour s'assurer du bon fonctionnement ou de l'arrêt."
+  ],
+  "conditions_succes": "Le script s'exécute sans erreur et la vérification des processus (ps aux) renvoie le statut attendu.",
+  "date_creation": "2026-08-25T21:28:29.856733",
+  "derniere_utilisation": "2026-08-25T21:28:29.856733",
+  "succes_compteur": 1
+}

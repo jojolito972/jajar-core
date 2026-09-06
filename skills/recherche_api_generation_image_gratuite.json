@@ -1,0 +1,21 @@
+{
+  "id": "recherche_api_generation_image_gratuite",
+  "nom": "Recherche de la meilleure API de génération d'images gratuite",
+  "declencheurs": [
+    "meilleure api image gratuite",
+    "api generation image simple",
+    "cle api generation image",
+    "meilleur gratuit api image"
+  ],
+  "description": "Trouver et recommander l'API de génération d'images la plus performante, simple et gratuite (ou avec un tier gratuit généreux).",
+  "recette_etapes": [
+    "Étape 1: Identifier les critères de sélection de l'utilisateur (gratuité, simplicité d'utilisation, nécessité d'une clé API, qualité du modèle).",
+    "Étape 2: Effectuer une recherche sur les API actuelles de génération d'images (ex: Flux.1, Stable Diffusion 3.5, Hugging Face Inference API, Pollinations.ai, Together AI).",
+    "Étape 3: Évaluer les offres selon le quota gratuit, la facilité d'obtention de la clé API et la qualité visuelle.",
+    "Étape 4: Sélectionner la meilleure option et fournir un guide pas à pas pour récupérer la clé API et la tester."
+  ],
+  "conditions_succes": "Une API adaptée est identifiée et recommandée avec une méthode simple pour obtenir la clé API.",
+  "date_creation": "2026-08-24T18:07:11.264274",
+  "derniere_utilisation": "2026-08-24T18:07:11.264274",
+  "succes_compteur": 1
+}

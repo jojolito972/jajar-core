@@ -1,0 +1,21 @@
+{
+  "id": "initialisation_csv_docx_search_tool",
+  "nom": "Initialisation des outils de recherche CSV et DOCX (CrewAI)",
+  "declencheurs": [
+    "CSVSearchTool",
+    "DOCXSearchTool",
+    "recherche vectorielle CSV",
+    "RAG documents bureautiques",
+    "crewai_tools"
+  ],
+  "description": "Procédure pour importer et initialiser correctement le CSVSearchTool et le DOCXSearchTool de la bibliothèque crewai_tools pour effectuer de la recherche vectorielle (RAG) dans des fichiers CSV et documents Word.",
+  "recette_etapes": [
+    "Étape 1: Configurer l'environnement avec une clé API valide (ex: OPENAI_API_KEY).",
+    "Étape 2: Importer CSVSearchTool et DOCXSearchTool depuis le module crewai_tools.",
+    "Étape 3: Instancier les outils pour les rendre prêts à l'utilisation dans un flux de recherche RAG."
+  ],
+  "conditions_succes": "Les instances CSVSearchTool et DOCXSearchTool sont créées sans lever d'exception.",
+  "date_creation": "2026-08-24T13:37:22.205338",
+  "derniere_utilisation": "2026-08-24T13:37:22.205338",
+  "succes_compteur": 1
+}

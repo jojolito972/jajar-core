@@ -1,0 +1,18 @@
+{
+  "id": "verifier_dossier_distant_ssh",
+  "nom": "Vérifier le contenu d'un dossier distant via SSH",
+  "declencheurs": [
+    "vérifier contenu dossier",
+    "dossier distant ssh",
+    "ls ssh bureau"
+  ],
+  "description": "Lister et vérifier les fichiers présents dans un répertoire spécifique sur une machine distante en utilisant SSH.",
+  "recette_etapes": [
+    "Étape 1: Identifier la machine cible (IP ou nom d'hôte), l'utilisateur et le chemin du dossier.",
+    "Étape 2: Utiliser la commande d'exécution SSH avec la commande 'ls -la' pointant vers le chemin cible."
+  ],
+  "conditions_succes": "Le contenu du dossier distant est affiché et listé avec succès sans erreur de connexion.",
+  "date_creation": "2026-08-24T02:12:44.550608",
+  "derniere_utilisation": "2026-08-24T02:12:44.550608",
+  "succes_compteur": 1
+}

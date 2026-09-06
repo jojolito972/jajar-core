@@ -1,0 +1,21 @@
+{
+  "id": "diagnostic_backend_llm_actif",
+  "nom": "Diagnostic du fournisseur et modèle LLM actif",
+  "declencheurs": [
+    "verifier modele llm",
+    "quel fournisseur llm",
+    "diagnostic kimi ollama",
+    "jajar modele actif"
+  ],
+  "description": "Permet de déterminer avec certitude quel backend ou fournisseur LLM (Kimi/Moonshot, Ollama, OpenAI, etc.) est réellement configuré et actif dans l'environnement de l'assistant.",
+  "recette_etapes": [
+    "Étape 1: Inspecter les variables d'environnement du système filtrées sur les termes clés (KEY, MODEL, API, LLM, KIMI, MOONSHOT).",
+    "Étape 2: Consulter les fichiers de configuration locaux d'état de l'assistant (ex: ~/.jajar_mode).",
+    "Étape 3: Vérifier les processus système en cours d'exécution pour détecter les moteurs locaux actifs (ex: Ollama, llama.cpp).",
+    "Étape 4: Recouper les données obtenues pour confirmer ou infirmer le modèle/fournisseur en cours d'utilisation."
+  ],
+  "conditions_succes": "Le modèle LLM et le fournisseur réellement actifs sont identifiés et confirmés par des données tangibles du système.",
+  "date_creation": "2026-08-29T17:21:50.510725",
+  "derniere_utilisation": "2026-08-29T17:21:50.510725",
+  "succes_compteur": 1
+}

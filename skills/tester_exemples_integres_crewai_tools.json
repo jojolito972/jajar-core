@@ -1,0 +1,21 @@
+{
+  "id": "tester_exemples_integres_crewai_tools",
+  "nom": "Tester les exemples intégrés de CrewAI Tools",
+  "declencheurs": [
+    "crewai_tools",
+    "FileReadTool",
+    "DirectoryReadTool",
+    "ScrapeWebsiteTool",
+    "tester outils crewai"
+  ],
+  "description": "Vérifier l'importation, l'instanciation et l'utilisation combinée des outils intégrés de la bibliothèque crewai_tools dans un environnement sécurisé.",
+  "recette_etapes": [
+    "Étape 1: É crire un script Python d'importation et d'instanciation des outils principaux (FileReadTool, DirectoryReadTool, ScrapeWebsiteTool, TXTSearchTool).",
+    "Étape 2: Configurer les variables d'environnement nécessaires (ex: OPENAI_API_KEY factice si requis pour initialiser certains wrappers).",
+    "Étape 3: Valider le bon fonctionnement via un script de test exécuté dans un bac à sable avec l'interpréteur virtuel approprié."
+  ],
+  "conditions_succes": "Les scripts de test s'exécutent sans erreur et affichent explicitement le succès de l'instanciation et de l'utilisation des outils intégrés.",
+  "date_creation": "2026-08-24T13:30:20.416942",
+  "derniere_utilisation": "2026-08-24T13:30:20.416942",
+  "succes_compteur": 1
+}

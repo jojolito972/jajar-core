@@ -1,0 +1,21 @@
+{
+  "id": "audit_et_nettoyage_second_cerveau",
+  "nom": "Audit et Nettoyage du Second Cerveau (JARVIS et Obsidian)",
+  "declencheurs": [
+    "verifier memoire second cerveau",
+    "nettoyer obsidian jarvis",
+    "auditer coherence epistemique",
+    "ranger le second cerveau"
+  ],
+  "description": "Procédure d'inspection approfondie, d'audit épistémique et de résolution de conflits pour organiser et optimiser la mémoire du second cerveau entre JARVIS et Obsidian.",
+  "recette_etapes": [
+    "Étape 1: Lancer un audit de cohérence épistémique global sur le second cerveau.",
+    "Étape 2: Identifier les anomalies, les doublons et les contradictions éventuelles.",
+    "Étape 3: Orchestrer un débat critique multi-agents (Studio) pour analyser en profondeur l'état de la mémoire et trancher sur les conflits.",
+    "Étape 4: Appliquer les corrections, ranger les informations et restructurer les notes ou bases de données impactées."
+  ],
+  "conditions_succes": "La mémoire du second cerveau est auditée, les conflits sont résolus par débat critique, et l'ensemble est parfaitement structuré et cohérent entre JARVIS et Obsidian.",
+  "date_creation": "2026-08-24T22:51:43.445508",
+  "derniere_utilisation": "2026-08-24T22:51:43.445508",
+  "succes_compteur": 1
+}

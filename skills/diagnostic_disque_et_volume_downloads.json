@@ -1,0 +1,20 @@
+{
+  "id": "diagnostic_disque_et_volume_downloads",
+  "nom": "Diagnostic d'encombrement disque et calcul du volume du dossier Téléchargements",
+  "declencheurs": [
+    "diagnostic disque",
+    "volume downloads",
+    "encombrement mac",
+    "taille dossier téléchargements"
+  ],
+  "description": "Analyser l'encombrement global du disque de stockage et déterminer le volume exact occupé par le dossier Downloads (Téléchargements).",
+  "recette_etapes": [
+    "Étape 1: Exécuter l'outil de diagnostic global de l'encombrement du système pour identifier l'état général du disque.",
+    "Étape 2: Extraire et cibler spécifiquement la métrique de taille du dossier Downloads à partir des résultats du diagnostic.",
+    "Étape 3: Restituer le volume exact sous une forme claire et directement exploitable pour l'utilisateur."
+  ],
+  "conditions_succes": "Le diagnostic du disque a été réalisé avec succès et le volume exact du dossier Downloads a été extrait et communiqué.",
+  "date_creation": "2026-08-25T01:53:56.109873",
+  "derniere_utilisation": "2026-08-25T01:53:56.109873",
+  "succes_compteur": 1
+}

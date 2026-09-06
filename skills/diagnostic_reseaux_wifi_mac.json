@@ -1,0 +1,20 @@
+{
+  "id": "diagnostic_reseaux_wifi_mac",
+  "nom": "Diagnostic des réseaux Wi-Fi mémorisés sur macOS",
+  "declencheurs": [
+    "pourquoi tu me ments",
+    "réseau wifi",
+    "macos",
+    "airport preferences",
+    "networksetup"
+  ],
+  "description": "Permet de lister les réseaux Wi-Fi mémorisés ou préférés sur un système macOS via les préférences système ou l'outil networksetup.",
+  "recette_etapes": [
+    "Étape 1: Tenter de lire les réseaux mémorisés directement depuis les préférences plist de l'aéroport (airport.preferences.plist).",
+    "Étape 2: En cas d'échec ou de complément, utiliser la commande alternative networksetup pour lister les réseaux Wi-Fi préférés de l'interface réseau (ex: en0)."
+  ],
+  "conditions_succes": "Obtention de la liste des réseaux Wi-Fi connus enregistrés sur la machine macOS.",
+  "date_creation": "2026-08-29T17:23:48.150753",
+  "derniere_utilisation": "2026-08-29T17:23:48.150753",
+  "succes_compteur": 1
+}

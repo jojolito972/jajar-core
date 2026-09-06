@@ -1,0 +1,23 @@
+{
+  "id": "generation_podcast_multi_voix_edge_tts",
+  "nom": "Génération de Podcast en Duel/Débat Multi-Voix avec Edge-TTS",
+  "declencheurs": [
+    "refaire ce podcast",
+    "deux voix",
+    "debat",
+    "voix homme haute qualité",
+    "equivalent de viviene"
+  ],
+  "description": "Créer un fichier audio de type podcast ou débat à plusieurs voix (ex: HenriNeural et VivienneNeural) en utilisant la bibliothèque Python edge-tts.",
+  "recette_etapes": [
+    "Étape 1: Importer ou installer dynamiquement la bibliothèque `edge-tts` et `asyncio`.",
+    "Étape 2: Définir la liste des interventions sous forme de tuples `(voix, texte)` en alternant les voix (ex: `fr-FR-HenriNeural` et `fr-FR-VivienneNeural`).",
+    "Étape 3: Créer une fonction asynchrone pour parcourir les segments, initialiser `edge_tts.Communicate`, et accumuler les flux audio binaires.",
+    "Étape 4: S'assurer que le répertoire de destination existe via `os.makedirs`.",
+    "Étape 5: Écrire le flux combiné dans un fichier MP3 final et exécuter la boucle asynchrone."
+  ],
+  "conditions_succes": "Le fichier audio final est généré, combinant les différentes voix sans coupure abrupte, et sauvegardé dans le répertoire cible.",
+  "date_creation": "2026-08-25T19:01:31.628371",
+  "derniere_utilisation": "2026-08-25T19:01:31.628371",
+  "succes_compteur": 1
+}

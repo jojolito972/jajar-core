@@ -1,0 +1,21 @@
+{
+  "id": "creation_agent_et_test_vocal_italien",
+  "nom": "Création d'Agent IA et Test Vocal en Italien",
+  "declencheurs": [
+    "agent de laura",
+    "procedure de mise en place",
+    "test de voix vivienne",
+    "italien"
+  ],
+  "description": "Procédure pour déployer un agent conversationnel et générer un test vocal multilingue (ex. italien) validé par notification.",
+  "recette_etapes": [
+    "Étape 1: Définir l'architecture et la procédure de configuration de l'agent (ex: Laura).",
+    "Étape 2: Rédiger le texte de test dans la langue cible (ex: italien) adapté au positionnement de la marque.",
+    "Étape 3: Utiliser l'outil de génération vocale (Vivienne) pour synthétiser le texte.",
+    "Étape 4: Envoyer le fichier audio généré sur le canal de communication validé (ex: Telegram)."
+  ],
+  "conditions_succes": "Le vocal multilingue est généré avec succès et transmis sur le canal cible.",
+  "date_creation": "2026-08-23T19:19:27.547767",
+  "derniere_utilisation": "2026-08-23T19:19:27.547767",
+  "succes_compteur": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "audit_parseurs_documents_complexes",
+  "nom": "Audit et Localisation de Parseurs de Documents (Docling/Marker)",
+  "declencheurs": [
+    "docling",
+    "marker",
+    "pdf vers markdown",
+    "extraction tableaux pdf",
+    "mise en page complexe",
+    "parser document"
+  ],
+  "description": "Vérifier l'installation, la disponibilité et la localisation des outils de parsing de documents complexes au sein du système et des environnements virtuels.",
+  "recette_etapes": [
+    "Étape 1: Vérifier la présence des binaires dans le PATH système via la commande 'which'.",
+    "Étape 2: Inspecter la liste des packages Python installés (pip list) pour identifier 'docling', 'marker-pdf' ou 'layoutparser'.",
+    "Étape 3: Rechercher les environnements virtuels (venv) existants dans les répertoires de travail pour identifier des installations isolées.",
+    "Étape 4: Localiser les fichiers ou dossiers spécifiques aux outils via une recherche récursive dans l'arborescence du projet."
+  ],
+  "conditions_succes": "Identification confirmée de l'état d'installation et de l'emplacement des outils ou de leurs environnements dédiés.",
+  "date_creation": "2026-08-24T13:05:17.565091",
+  "derniere_utilisation": "2026-08-24T13:05:17.565091",
+  "succes_compteur": 1
+}

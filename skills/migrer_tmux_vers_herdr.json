@@ -1,0 +1,21 @@
+{
+  "id": "migrer_tmux_vers_herdr",
+  "nom": "Migration du lancement des agents de Tmux vers Herdr (Natif)",
+  "declencheurs": [
+    "herdr",
+    "pas sur tmux",
+    "mode natif",
+    "lancer studio herdr"
+  ],
+  "description": "Convertit un script de lancement d'agents basé sur tmux en un script de lancement natif en arrière-plan compatible avec l'interface Herdr.",
+  "recette_etapes": [
+    "Étape 1: Lire le script de lancement existant basé sur tmux pour identifier les agents et les commandes.",
+    "Étape 2: Créer ou modifier le script de lancement pour utiliser l'exécution en arrière-plan avec des redirections de flux (`> /dev/null 2>&1 &`) au lieu des sessions tmux.",
+    "Étape 3: Configurer l'environnement d'exécution (variables d'environnement, chemin Python du venv).",
+    "Étape 4: Exécuter le nouveau script de lancement natif via la commande shell pour valider le démarrage des processus."
+  ],
+  "conditions_succes": "Les processus des agents s'exécutent en arrière-plan sans erreur et l'interface Herdr peut interagir avec eux.",
+  "date_creation": "2026-08-25T12:26:42.797235",
+  "derniere_utilisation": "2026-08-25T12:26:42.797235",
+  "succes_compteur": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "sauvegarde_systematique_pre_intervention",
+  "nom": "Création d'un backup atomique obligatoire avant intervention",
+  "declencheurs": [
+    "backup",
+    "sauvegarde",
+    "sécurité",
+    "revenir en arrière",
+    "bac à sable"
+  ],
+  "description": "Établir systématiquement un point de restauration sécurisé (backup horodaté) avant toute modification de code ou d'environnement technique.",
+  "recette_etapes": [
+    "Étape 1: Définir un répertoire centralisé de sauvegarde (ex: /backups_studio).",
+    "Étape 2: Générer un horodatage unique (TIMESTAMP).",
+    "Étape 3: Copier les fichiers ou répertoires critiques cibles dans le dossier de backup dédié.",
+    "Étape 4: Valider la création du backup en listant son contenu avant de procéder aux modifications opérationnelles."
+  ],
+  "conditions_succes": "Le dossier de backup contient une copie exacte des ressources cibles et l'horodatage est validé par le shell.",
+  "date_creation": "2026-09-02T18:27:46.331952",
+  "derniere_utilisation": "2026-09-02T18:27:46.331952",
+  "succes_compteur": 1
+}

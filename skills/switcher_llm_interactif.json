@@ -1,0 +1,22 @@
+{
+  "id": "switcher_llm_interactif",
+  "nom": "Mise en place d'un commutateur de LLM (Gemini / Kimi)",
+  "declencheurs": [
+    "changer de llm",
+    "tester kimi",
+    "mettre en place une connexion",
+    "alterner entre gemini et kimi",
+    "switch llm"
+  ],
+  "description": "Créer une solution ergonomique et un script simple pour basculer dynamiquement entre différents fournisseurs de LLM (ex: Gemini et Kimi).",
+  "recette_etapes": [
+    "Étape 1: Créer un dossier de configuration centralisé (ex: ~/.studio_config).",
+    "Étape 2: Initialiser un fichier JSON de configuration répertoriant les différents providers et le LLM actif.",
+    "Étape 3: Développer un script utilitaire (ex: switch_llm.py) permettant d'afficher l'état actuel et de changer de fournisseur par simple commande.",
+    "Étape 4: Tester le script en affichant le statut initial."
+  ],
+  "conditions_succes": "Le fichier de configuration JSON est créé avec succès et le script de bascule s'exécute sans erreur en affichant l'état du LLM actif.",
+  "date_creation": "2026-08-29T17:11:52.725798",
+  "derniere_utilisation": "2026-08-29T17:11:52.725798",
+  "succes_compteur": 1
+}

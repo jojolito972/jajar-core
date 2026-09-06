@@ -1,0 +1,20 @@
+{
+  "id": "installation_et_test_docling",
+  "nom": "Installation et Test de Docling dans un Environnement Virtuel",
+  "declencheurs": [
+    "installer docling",
+    "parser pdf docling",
+    "configurer environnement docling"
+  ],
+  "description": "Procédure pour installer la bibliothèque Docling et ses dépendances dans un environnement virtuel Python dédié, puis valider son bon fonctionnement par un script de test.",
+  "recette_etapes": [
+    "Créer un environnement virtuel Python dédié (ex: venv_parsing).",
+    "Mettre à jour pip au sein de l'environnement virtuel.",
+    "Installer la bibliothèque docling via pip dans l'environnement virtuel.",
+    "Rédiger un script de test d'importation de docling et le valider en l'exécutant via l'interpréteur de l'environnement virtuel."
+  ],
+  "conditions_succes": "Le script de test s'exécute sans erreur et confirme l'importation réussie de docling.",
+  "date_creation": "2026-08-24T13:11:07.393254",
+  "derniere_utilisation": "2026-08-24T13:11:07.393254",
+  "succes_compteur": 1
+}

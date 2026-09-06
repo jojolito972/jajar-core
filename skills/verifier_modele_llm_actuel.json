@@ -1,0 +1,19 @@
+{
+  "id": "verifier_modele_llm_actuel",
+  "nom": "Vérifier le modèle LLM actif",
+  "declencheurs": [
+    "quel modele",
+    "qui es tu",
+    "suis je bien sur",
+    "verifier llm",
+    "kimi"
+  ],
+  "description": "Permet de vérifier quel modèle LLM ou assistant est actuellement actif via un script de bascule dédié.",
+  "recette_etapes": [
+    "Étape 1: Exécuter le script de gestion/bascule des modèles (ex: python3 /Users/denmac/switch_llm.py) pour identifier l'état ou le modèle en cours."
+  ],
+  "conditions_succes": "Le retour de la commande indique clairement l'identité du modèle LLM actif.",
+  "date_creation": "2026-08-29T17:16:08.750122",
+  "derniere_utilisation": "2026-08-29T17:16:08.750122",
+  "succes_compteur": 1
+}

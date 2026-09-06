@@ -1,0 +1,22 @@
+{
+  "id": "diagnostic_espace_disque_mac",
+  "nom": "Diagnostic de l'encombrement disque macOS",
+  "declencheurs": [
+    "diagnostiquer disque",
+    "combien de gigas",
+    "libérer de l'espace",
+    "nettoyer mac",
+    "encombrement disque"
+  ],
+  "description": "Analyser l'utilisation du stockage d'un Mac pour identifier les fichiers et dossiers superflus afin de quantifier l'espace récupérable.",
+  "recette_etapes": [
+    "Étape 1: Exécuter l'outil de diagnostic d'encombrement sur le système macOS.",
+    "Étape 2: Analyser les résultats pour identifier les catégories de fichiers lourds (caches, corbeille, téléchargements, etc.).",
+    "Étape 3: Calculer et sommer l'espace disque potentiellement récupérable.",
+    "Étape 4: Présenter un rapport clair et précis avec le volume exact en gigaoctets (Go) pouvant être nettoyé."
+  ],
+  "conditions_succes": "Un rapport précis indiquant le volume exact d'espace disque récupérable en gigaoctets est généré.",
+  "date_creation": "2026-08-25T01:17:02.159629",
+  "derniere_utilisation": "2026-08-25T01:17:02.159629",
+  "succes_compteur": 1
+}

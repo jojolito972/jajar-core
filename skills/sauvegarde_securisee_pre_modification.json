@@ -1,0 +1,22 @@
+{
+  "id": "sauvegarde_securisee_pre_modification",
+  "nom": "Sauvegarde sécurisée des fichiers avant modification",
+  "declencheurs": [
+    "backup des fichiers",
+    "sauvegarde avant modification",
+    "ne pas tout péter",
+    "backup préventif"
+  ],
+  "description": "Crée une sauvegarde horodatée et sélective des fichiers cibles (ex: scripts Python) avant d'effectuer des modifications risquées pour éviter toute perte de données.",
+  "recette_etapes": [
+    "Étape 1: Générer un horodatage unique (timestamp) pour identifier le dossier de sauvegarde.",
+    "Étape 2: Créer un répertoire de sauvegarde dédié avec cet horodatage.",
+    "Étape 3: Rechercher les fichiers ciblés en excluant les dossiers sensibles (environnements virtuels, cachés, bibliothèques système).",
+    "Étape 4: Copier les fichiers en conservant leur arborescence d'origine (`cp --parents`).",
+    "Étape 5: Vérifier et compter le nombre de fichiers effectivement sauvegardés pour valider l'opération."
+  ],
+  "conditions_succes": "Le dossier de backup est créé, les fichiers cibles y sont dupliqués avec leur arborescence, et le compteur confirme un nombre de fichiers supérieur à zéro.",
+  "date_creation": "2026-09-02T18:36:20.130419",
+  "derniere_utilisation": "2026-09-02T18:36:20.130419",
+  "succes_compteur": 1
+}

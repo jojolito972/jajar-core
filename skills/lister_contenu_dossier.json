@@ -1,0 +1,19 @@
+{
+  "id": "lister_contenu_dossier",
+  "nom": "Lister le contenu d'un répertoire avec détails",
+  "declencheurs": [
+    "ls",
+    "lister repertoire",
+    "contenu dossier",
+    "voir fichiers"
+  ],
+  "description": "Permet d'afficher la liste détaillée de tous les fichiers et dossiers (y compris cachés) d'un répertoire de travail spécifique.",
+  "recette_etapes": [
+    "Identifier le dossier cible de la commande.",
+    "Exécuter la commande shell 'ls -la' dans le répertoire cible spécifié."
+  ],
+  "conditions_succes": "La liste détaillée des fichiers du répertoire est retournée avec succès.",
+  "date_creation": "2026-08-29T17:46:28.104661",
+  "derniere_utilisation": "2026-08-29T17:46:28.104661",
+  "succes_compteur": 1
+}

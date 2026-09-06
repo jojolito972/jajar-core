@@ -1,0 +1,21 @@
+{
+  "id": "generation_image_elephant_plongee",
+  "nom": "Génération d'image ultra-réaliste d'un éléphant en plongée",
+  "declencheurs": [
+    "éléphant",
+    "plongée",
+    "sous-marin",
+    "ultra réaliste",
+    "générer image"
+  ],
+  "description": "Créer une image hautement réaliste et cinématographique d'un éléphant équipé pour la plongée sous-marine dans un récif corallien.",
+  "recette_etapes": [
+    "Étape 1: Formuler un prompt détaillé incluant le sujet (éléphant en plongée avec équipement sur mesure), l'environnement (récif corallien, eau cristalline, rayons de soleil), et les spécifications techniques (texture de peau détaillée, résolution 8k, éclairage cinématographique).",
+    "Étape 2: Configurer les paramètres de l'outil de génération d'image (ratio d'aspect 16:9).",
+    "Étape 3: Exécuter la génération de l'image via l'outil approprié."
+  ],
+  "conditions_succes": "Une image générée respectant les critères de réalisme photographique sous-marin avec les détails demandés (masque, bouteilles d'oxygène, bulles, coraux).",
+  "date_creation": "2026-08-24T19:51:48.959965",
+  "derniere_utilisation": "2026-08-24T19:51:48.959965",
+  "succes_compteur": 1
+}

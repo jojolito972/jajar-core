@@ -1,0 +1,22 @@
+{
+  "id": "audit_et_verification_environnement_travail",
+  "nom": "Audit et Vérification de l'Environnement de Travail",
+  "declencheurs": [
+    "synchroniser_second_cerveau",
+    "executer_dans_bac_a_sable",
+    "audit rapide",
+    "verifier scripts"
+  ],
+  "description": "Procédure d'exploration initiale de l'espace de travail, lecture des notes d'atelier et vérification de la syntaxe des scripts Python pour préparer une intervention.",
+  "recette_etapes": [
+    "Étape 1: Synchroniser le second cerveau pour récupérer les dernières données.",
+    "Étape 2: Lister l'arborescence des fichiers dans le bac à sable pour identifier la structure.",
+    "Étape 3: Explorer les dossiers spécifiques et lire les notes contextuelles (ex: notes d'atelier).",
+    "Étape 4: Inspecter le contenu des scripts pertinents.",
+    "Étape 5: Valider la compilation des scripts Python présents pour détecter d'éventuelles erreurs de syntaxe."
+  ],
+  "conditions_succes": "L'environnement est cartographié, le contexte client/projet est compris via les notes et l'état de santé syntaxique des scripts est vérifié.",
+  "date_creation": "2026-08-24T02:56:59.438129",
+  "derniere_utilisation": "2026-08-24T02:56:59.438129",
+  "succes_compteur": 1
+}

@@ -1,0 +1,19 @@
+{
+  "id": "verifier_connexion_nvidia_nim",
+  "nom": "Vérification de la configuration et connectivité NVIDIA NIM",
+  "declencheurs": [
+    "nvidia nim",
+    "connecter nvidia",
+    "verifier api nvidia",
+    "audit nvidia nim"
+  ],
+  "description": "Vérifie la présence de la clé API NVIDIA_API_KEY et la disponibilité des bibliothèques requises pour interroger les endpoints NVIDIA NIM.",
+  "recette_etapes": [
+    "Étape 1: Créer un script de diagnostic pour vérifier la variable d'environnement NVIDIA_API_KEY et la disponibilité du module client (ex: openai).",
+    "Étape 2: Exécuter le script de vérification via l'interpréteur Python dans le dossier cible du projet."
+  ],
+  "conditions_succes": "Le script s'exécute correctement, confirme l'état de la clé API NVIDIA et valide la disponibilité des dépendances logicielles.",
+  "date_creation": "2026-09-02T18:54:06.051764",
+  "derniere_utilisation": "2026-09-02T18:54:06.051764",
+  "succes_compteur": 1
+}

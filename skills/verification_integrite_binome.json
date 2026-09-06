@@ -1,0 +1,21 @@
+{
+  "id": "verification_integrite_binome",
+  "nom": "Garantie de Transparence et de Robustesse en Binôme",
+  "declencheurs": [
+    "plus robuste",
+    "ne pas mentir",
+    "ne jamais faire semblant",
+    "on est un binome"
+  ],
+  "description": "Établir un mode de fonctionnement basé sur la transparence absolue, la vérification réelle par l'exécution d'outils et le refus absolu de simuler ou d'halluciner des résultats.",
+  "recette_etapes": [
+    "Étape 1: Reconnaître immédiatement et sans détour les attentes du partenaire (transparence, honnêteté, travail d'équipe).",
+    "Étape 2: Utiliser systématiquement des outils techniques (shell, scripts) pour vérifier l'état réel du système avant toute affirmation.",
+    "Étape 3: Présenter les faits bruts issus des exécutions sans embellissement ni dissimulation.",
+    "Étape 4: Ajuster les comportements futurs pour aligner la réponse technique avec la réalité vérifiée."
+  ],
+  "conditions_succes": "Absence totale de simulation, validation par des faits prouvés techniquement et acceptation explicite du pacte de binôme.",
+  "date_creation": "2026-08-25T21:26:19.457962",
+  "derniere_utilisation": "2026-08-25T21:26:19.457962",
+  "succes_compteur": 1
+}

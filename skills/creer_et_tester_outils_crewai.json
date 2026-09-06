@@ -1,0 +1,23 @@
+{
+  "id": "creer_et_tester_outils_crewai",
+  "nom": "Création et test d'outils personnalisés et prêts à l'emploi avec CrewAI",
+  "declencheurs": [
+    "crewai",
+    "crewai-tools",
+    "outil personnalisé",
+    "file read tool",
+    "bac à sable python"
+  ],
+  "description": "Procédure pour développer, intégrer et tester des outils personnalisés (@tool) ainsi que des outils prêts à l'emploi de la bibliothèque crewai-tools dans un environnement sécurisé.",
+  "recette_etapes": [
+    "Étape 1: Importer les modules nécessaires depuis crewai et crewai_tools (ex: @tool, FileReadTool).",
+    "Étape 2: Définir l'outil personnalisé en utilisant le décorateur @tool avec une description claire de son rôle.",
+    "Étape 3: Initialiser les outils prêts à l'emploi si nécessaire pour compléter les fonctionnalités.",
+    "Étape 4: Écrire un script de test pour valider l'exécution des outils personnalisés et pré-programmés dans un bloc try/except.",
+    "Étape 5: Valider le bon fonctionnement du code via une commande d'exécution dans un bac à sable."
+  ],
+  "conditions_succes": "Le script s'exécute sans erreur, initialise correctement les outils pré-programmés et valide le retour fonctionnel de l'outil personnalisé.",
+  "date_creation": "2026-08-24T13:27:51.424815",
+  "derniere_utilisation": "2026-08-24T13:27:51.424815",
+  "succes_compteur": 1
+}

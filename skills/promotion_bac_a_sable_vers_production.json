@@ -1,0 +1,22 @@
+{
+  "id": "promotion_bac_a_sable_vers_production",
+  "nom": "Promotion de script du bac à sable vers la production",
+  "declencheurs": [
+    "lancer le vrai projet",
+    "deployer depuis bac a sable",
+    "passer en production"
+  ],
+  "description": "Permet de valider, tester et déployer des scripts développés dans le bac à sable vers un environnement de production, puis de lancer l'exécution finale et de synchroniser le second cerveau.",
+  "recette_etapes": [
+    "Étape 1: Déployer le fichier validé du bac à sable vers le chemin de destination en production.",
+    "Étape 2: Exécuter le script déployé pour s'assurer de son bon fonctionnement.",
+    "Étape 3: Créer et tester un script de lancement global basé sur les artéfacts générés.",
+    "Étape 4: Déployer ce script de lancement global vers la production.",
+    "Étape 5: Exécuter le script de lancement global en production.",
+    "Étape 6: Synchroniser le second cerveau pour archiver l'état et les actions réalisées."
+  ],
+  "conditions_succes": "Les scripts de production sont déployés, exécutés sans erreur et le second cerveau est synchronisé.",
+  "date_creation": "2026-08-24T03:17:05.576452",
+  "derniere_utilisation": "2026-08-24T03:17:05.576452",
+  "succes_compteur": 1
+}

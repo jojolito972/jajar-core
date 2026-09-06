@@ -1,0 +1,19 @@
+{
+  "id": "extraction_etl_emails_obsidian_annuelle",
+  "nom": "Extraction ETL et Structuration Obsidian des Emails par Année",
+  "declencheurs": [
+    "faire la meme chose pour 2024",
+    "extraire les emails",
+    "analyser les emails par annee"
+  ],
+  "description": "Extraire et structurer les emails d'une annee specifique au format Obsidian en utilisant le pipeline ETL complet.",
+  "recette_etapes": [
+    "Étape 1: Identifier l'année cible demandée par l'utilisateur.",
+    "Étape 2: Appeler l'outil de traitement des emails .emlx vers Obsidian en filtrant par l'année cible et en définissant le nombre maximum d'emails (ex: 150).",
+    "Étape 3: Valider la création de la note Obsidian correspondante."
+  ],
+  "conditions_succes": "La note Obsidian pour l'année cible est générée avec succès et le résumé confirme l'analyse des emails.",
+  "date_creation": "2026-08-23T18:51:23.526839",
+  "derniere_utilisation": "2026-08-23T18:51:23.526839",
+  "succes_compteur": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "archivage_documentation_technique_markdown",
+  "nom": "Archivage de documentation technique et scripts en Markdown",
+  "declencheurs": [
+    "archiver",
+    "documentation",
+    "markdown",
+    "enregistrer source technique",
+    "second cerveau"
+  ],
+  "description": "Créer et structurer un fichier Markdown documentant une plateforme technologique, un processus d'intégration et des scripts associés dans un dossier cible.",
+  "recette_etapes": [
+    "Étape 1: Structurer les informations clés (Résumé, Processus pratique, Scripts d'intégration, Implication stratégique).",
+    "Étape 2: Rédiger le contenu au format Markdown avec des blocs de code adaptés.",
+    "Étape 3: Écrire le fichier final dans le répertoire cible via l'outil d'écriture de fichier."
+  ],
+  "conditions_succes": "Le fichier Markdown est correctement rédigé, syntaxiquement valide et enregistré au bon emplacement dans l'arborescence cible.",
+  "date_creation": "2026-08-29T17:55:11.335346",
+  "derniere_utilisation": "2026-08-29T17:55:11.335346",
+  "succes_compteur": 1
+}

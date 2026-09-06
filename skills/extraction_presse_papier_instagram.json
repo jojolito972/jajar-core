@@ -1,0 +1,19 @@
+{
+  "id": "extraction_presse_papier_instagram",
+  "nom": "Extraction du contenu du presse-papier pour lien Instagram",
+  "declencheurs": [
+    "lien instagram",
+    "ce que je viens t envoyer",
+    "presse-papier",
+    "url instagram"
+  ],
+  "description": "Récupérer et analyser l'URL ou le contenu textuel d'un lien Instagram partagé via le presse-papier du système.",
+  "recette_etapes": [
+    "Étape 1: Lire le contenu actuel du presse-papier à l'aide de la commande 'pbpaste' ou équivalent.",
+    "Étape 2: Valider et décoder le contenu brut extrait pour identifier le lien ou les métadonnées de la publication Instagram."
+  ],
+  "conditions_succes": "Le lien ou le contenu du presse-papier a été lu et affiché correctement sans erreur d'encodage.",
+  "date_creation": "2026-08-29T15:58:00.553659",
+  "derniere_utilisation": "2026-08-29T15:58:00.553659",
+  "succes_compteur": 1
+}

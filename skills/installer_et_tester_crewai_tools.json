@@ -1,0 +1,22 @@
+{
+  "id": "installer_et_tester_crewai_tools",
+  "nom": "Installation et vérification de crewai-tools",
+  "declencheurs": [
+    "crewai-tools",
+    "boîte à outils crewai",
+    "installer crewai tools",
+    "configurer outils crewai"
+  ],
+  "description": "Procédure d'installation de la suite d'outils officielle CrewAI dans un environnement virtuel dédié avec validation par script de test des imports.",
+  "recette_etapes": [
+    "Créer un environnement virtuel Python dédié (ex: venv_crewai).",
+    "Mettre à jour pip au sein de l'environnement virtuel.",
+    "Installer le paquet officiel 'crewai-tools'.",
+    "Écrire un script de test vérifiant l'importation des outils principaux (FileReadTool, ScrapeWebsiteTool, TXTSearchTool).",
+    "Exécuter le script de validation pour confirmer le bon fonctionnement de l'installation."
+  ],
+  "conditions_succes": "Le script de test s'exécute sans erreur et confirme l'importation réussie des modules crewai_tools dans l'environnement virtuel.",
+  "date_creation": "2026-08-24T13:25:38.469259",
+  "derniere_utilisation": "2026-08-24T13:25:38.469259",
+  "succes_compteur": 1
+}

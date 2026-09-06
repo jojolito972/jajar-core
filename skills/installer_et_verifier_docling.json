@@ -1,0 +1,18 @@
+{
+  "id": "installer_et_verifier_docling",
+  "nom": "Installation et vérification de Docling via Python",
+  "declencheurs": [
+    "installer docling",
+    "verifier docling",
+    "pip install docling"
+  ],
+  "description": "Installer la bibliothèque Docling en ligne de commande et vérifier son bon import et sa version.",
+  "recette_etapes": [
+    "Étape 1: Exécuter la commande pip3 install docling pour installer la bibliothèque.",
+    "Étape 2: Vérifier l'installation en testant l'importation du module python et l'affichage de sa version."
+  ],
+  "conditions_succes": "La bibliothèque Docling est installée et son importation en Python réussit sans erreur.",
+  "date_creation": "2026-08-24T13:11:09.855110",
+  "derniere_utilisation": "2026-08-24T13:11:09.855110",
+  "succes_compteur": 1
+}

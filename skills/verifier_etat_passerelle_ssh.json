@@ -1,0 +1,19 @@
+{
+  "id": "verifier_etat_passerelle_ssh",
+  "nom": "Vérification de l'état de la passerelle et des services via SSH",
+  "declencheurs": [
+    "verifier passerelle",
+    "etat services ssh",
+    "pmset log gateway",
+    "verification configuration distance"
+  ],
+  "description": "Vérifier l'état énergétique, les journaux système récents et les processus actifs liés à une passerelle ou un pont sur un hôte distant via SSH.",
+  "recette_etapes": [
+    "Étape 1: Se connecter à l'hôte distant via SSH (ex: ios@192.168.1.33).",
+    "Étape 2: Exécuter une commande groupée pour afficher l'en-tête, les derniers logs d'alimentation (pmset) et les processus en cours (python, node, gateway, bridge)."
+  ],
+  "conditions_succes": "Les logs système et la liste des processus actifs de la passerelle sont récupérés et affichés sans erreur critique.",
+  "date_creation": "2026-08-24T01:20:26.653006",
+  "derniere_utilisation": "2026-08-24T01:20:26.653006",
+  "succes_compteur": 1
+}

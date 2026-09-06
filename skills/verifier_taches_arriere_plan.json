@@ -1,0 +1,20 @@
+{
+  "id": "verifier_taches_arriere_plan",
+  "nom": "Vérification des tâches en arrière-plan",
+  "declencheurs": [
+    "statut podcast",
+    "nouvelles de la tâche",
+    "que fait jajar",
+    "tâches en arrière-plan"
+  ],
+  "description": "Vérifier l'état d'avancement des processus en cours d'exécution asynchrone (comme la génération de podcasts ou autres traitements longs).",
+  "recette_etapes": [
+    "Étape 1: Identifier le besoin de l'utilisateur concernant un traitement long ou asynchrone.",
+    "Étape 2: Appeler l'outil 'verifier_taches_arriere_plan' pour récupérer l'état des processus en cours.",
+    "Étape 3: Analyser le retour de l'outil et restituer clairement le statut actuel à l'utilisateur."
+  ],
+  "conditions_succes": "Le statut exact de la tâche en arrière-plan est récupéré et communiqué avec précision à l'utilisateur.",
+  "date_creation": "2026-08-25T18:28:01.200464",
+  "derniere_utilisation": "2026-08-25T18:30:16.838011",
+  "succes_compteur": 2
+}

@@ -1,0 +1,22 @@
+{
+  "id": "reinitialisation_et_synthese_cognitive",
+  "nom": "Réinitialisation et Synthèse Cognitive Post-Chantier",
+  "declencheurs": [
+    "reprendre de zero",
+    "chantier",
+    "cerveau bancale",
+    "infrastructure cognitive",
+    "analyse memoire hybride"
+  ],
+  "description": "Restaurer la clarté et restructurer l'infrastructure cognitive à partir d'une synthèse de la mémoire hybride après une phase de chantier complexe.",
+  "recette_etapes": [
+    "Étape 1: Lire et analyser les fichiers d'état ou de projets récents pour identifier le contexte et les points de rupture.",
+    "Étape 2: Nettoyer et structurer les données issues du chantier pour stabiliser l'infrastructure cognitive.",
+    "Étape 3: Rédiger une synthèse claire et ordonnée de l'état actuel des projets.",
+    "Étape 4: Valider le retour à un état opérationnel stable et notifier l'utilisateur."
+  ],
+  "conditions_succes": "La mémoire hybride est synthétisée, l'infrastructure cognitive est stabilisée et un rapport clair est présenté à l'utilisateur.",
+  "date_creation": "2026-08-25T01:34:01.970032",
+  "derniere_utilisation": "2026-08-25T01:34:01.970032",
+  "succes_compteur": 1
+}

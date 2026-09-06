@@ -1,0 +1,19 @@
+{
+  "id": "gestion_tache_asynchrone_notification",
+  "nom": "Gestion de Tâche Asynchrone avec Notification",
+  "declencheurs": [
+    "tu me préviens quand c'est livré",
+    "notifier à la fin",
+    "lancer en arrière-plan et prévenir"
+  ],
+  "description": "Lancer une recherche ou une tâche de fond complexe en arrière-plan et configurer une alerte pour prévenir l'utilisateur dès sa finalisation.",
+  "recette_etapes": [
+    "Étape 1: Identifier la nature de la tâche demandée par l'utilisateur.",
+    "Étape 2: Lancer l'outil de traitement asynchrone approprié (ex: recherche en arrière-plan).",
+    "Étape 3: Confirmer à l'utilisateur que la tâche est en cours et qu'une notification lui sera envoyée dès son achèvement."
+  ],
+  "conditions_succes": "La tâche est lancée en arrière-plan avec succès et l'utilisateur a reçu une confirmation explicite de prise en charge avec engagement de notification.",
+  "date_creation": "2026-08-25T02:32:17.762192",
+  "derniere_utilisation": "2026-08-25T02:32:17.762192",
+  "succes_compteur": 1
+}

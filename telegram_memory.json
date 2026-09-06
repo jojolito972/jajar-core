@@ -1,0 +1,37 @@
+{
+  "776819401": {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tu peux me donner mes erbniers rappel",
+        "time": "2026-08-23T01:12:47.708549"
+      },
+      {
+        "role": "assistant",
+        "content": "Erreur d'import : No module named 'jarvis_main'",
+        "time": "2026-08-23T01:12:47.710288"
+      },
+      {
+        "role": "user",
+        "content": "tu peux me donner mes derniers rappels",
+        "time": "2026-08-23T01:13:18.442870"
+      },
+      {
+        "role": "assistant",
+        "content": "Erreur d'import : No module named 'jarvis_main'",
+        "time": "2026-08-23T01:13:18.444127"
+      },
+      {
+        "role": "user",
+        "content": "alors ca fonctionne",
+        "time": "2026-08-23T01:16:37.936953"
+      },
+      {
+        "role": "assistant",
+        "content": "Erreur d'import : No module named 'jarvis_main'",
+        "time": "2026-08-23T01:16:37.958973"
+      }
+    ],
+    "last_file": null
+  }
+}

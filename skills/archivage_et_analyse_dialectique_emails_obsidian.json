@@ -1,0 +1,21 @@
+{
+  "id": "archivage_et_analyse_dialectique_emails_obsidian",
+  "nom": "Archivage et Analyse Dialectique d'Emails dans le Second Cerveau",
+  "declencheurs": [
+    "archiver emails obsidian",
+    "analyse dialectique emails",
+    "synthese emails second cerveau",
+    "debat multi agents emails"
+  ],
+  "description": "Procédure complète permettant d'importer et classifier les courriels dans Obsidian, puis d'exécuter une analyse dialectique poussée (risques, opportunités, non-dits) via recherche ciblée et débat multi-agents.",
+  "recette_etapes": [
+    "Étape 1: Importer et traiter les courriels ciblés vers le dossier Second Cerveau Obsidian.",
+    "Étape 2: Consulter l'index et les fichiers thématiques générés dans Obsidian.",
+    "Étape 3: Lancer une recherche approfondie (Deep Research) sur les thématiques clés identifiées dans les courriels.",
+    "Étape 4: Orchestrer un débat Studio multi-agents pour analyser le sujet sous des angles contradictoires et élaborer une synthèse dialectique."
+  ],
+  "conditions_succes": "Les emails sont correctement indexés dans Obsidian et une synthèse dialectique multi-agents documentée par une recherche approfondie est générée.",
+  "date_creation": "2026-08-24T11:34:24.808930",
+  "derniere_utilisation": "2026-08-24T11:34:24.808930",
+  "succes_compteur": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "analyse_second_cerveau_et_memoire_locale",
+  "nom": "Analyse et synthèse du second cerveau et de la mémoire locale",
+  "declencheurs": [
+    "second cerveau",
+    "mémoire locale",
+    "obsidian",
+    "notes macos",
+    "rappels macos",
+    "analyser ma mémoire"
+  ],
+  "description": "Procédure pour inventorier, lire et synthétiser les informations stockées dans le second cerveau (Obsidian) et les applications de productivité locales (Notes, Rappels).",
+  "recette_etapes": [
+    "Étape 1: Lister l'arborescence du second cerveau pour cartographier les dossiers et les thématiques.",
+    "Étape 2: Lire le contenu des notes récentes ou importantes dans macOS Notes pour capturer les réflexions et données textuelles.",
+    "Étape 3: Consulter les rappels macOS en cours pour identifier les tâches et les priorités opérationnelles.",
+    "Étape 4: Synthétiser l'ensemble des informations pour fournir une vue d'ensemble structurée de l'état mental et organisationnel de l'utilisateur."
+  ],
+  "conditions_succes": "L'arborescence, les notes et les rappels ont été extraits et synthétisés en un rapport cohérent et actionnable.",
+  "date_creation": "2026-08-24T22:11:22.761286",
+  "derniere_utilisation": "2026-08-24T22:11:22.761286",
+  "succes_compteur": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "salutation_italien_contexte",
+  "nom": "Salutation en italien avec contexte historique",
+  "declencheurs": [
+    "ciao",
+    "alba",
+    "come stai"
+  ],
+  "description": "Initier ou répondre à une conversation en italien en vérifiant les dernières interactions pour assurer la continuité.",
+  "recette_etapes": [
+    "Lire les dernières interactions Telegram pour identifier le contexte et l'interlocuteur.",
+    "Formuler une réponse appropriée en italien (ex: 'Ciao! Sto bene, grazie. E tu?')."
+  ],
+  "conditions_succes": "La salutation est cohérente avec le fil de discussion récent.",
+  "date_creation": "2026-08-24T22:50:24.643497",
+  "derniere_utilisation": "2026-08-24T22:50:24.643497",
+  "succes_compteur": 1
+}

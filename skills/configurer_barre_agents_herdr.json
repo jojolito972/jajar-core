@@ -1,0 +1,22 @@
+{
+  "id": "configurer_barre_agents_herdr",
+  "nom": "Configuration des agents dans la barre latérale de Herdr",
+  "declencheurs": [
+    "herdr",
+    "barre agent",
+    "bas a gauche",
+    "ajouter agents herdr",
+    "configurer herdr"
+  ],
+  "description": "Procédure pour configurer et afficher l'ensemble des agents dans la barre d'outils inférieure gauche de l'interface Herdr.",
+  "recette_etapes": [
+    "Étape 1: Interroger la mémoire locale ou rechercher les fichiers de configuration liés à Herdr pour identifier le fichier de pont ou de présence (ex: herdr_presence.json, herdr_bridge.py).",
+    "Étape 2: Vérifier le script de lancement de l'environnement (ex: lancer_studio_herdr.sh) pour comprendre comment les agents sont injectés dans l'interface.",
+    "Étape 3: Mettre à jour le fichier de configuration des agents (JSON ou script de pont) pour inclure les nouveaux identifiants d'agents.",
+    "Étape 4: Redémarrer l'application ou le script de studio Herdr pour appliquer les modifications dans la barre latérale."
+  ],
+  "conditions_succes": "Tous les agents souhaités apparaissent correctement dans la barre d'outils en bas à gauche de l'interface Herdr.",
+  "date_creation": "2026-08-25T12:25:12.553976",
+  "derniere_utilisation": "2026-08-25T12:25:12.553976",
+  "succes_compteur": 1
+}

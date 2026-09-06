@@ -1,0 +1,24 @@
+{
+  "id": "reconstitution_chronologique_biographique",
+  "nom": "Reconstitution Chronologique et Biographique via Archives",
+  "declencheurs": [
+    "synthèse activités",
+    "évolution vie",
+    "historique projets",
+    "période passée",
+    "archives emails"
+  ],
+  "description": "Générer une synthèse structurée des activités, projets et thématiques d'un utilisateur sur une période donnée en croisant les archives d'emails et la documentation du second cerveau.",
+  "recette_etapes": [
+    "Étape 1: Extraire et synthétiser les emails de la période cible via les outils d'analyse Obsidian.",
+    "Étape 2: Interroger la mémoire locale pour identifier les thématiques et projets récurrents mentionnés dans les traces.",
+    "Étape 3: Explorer l'arborescence du second cerveau pour localiser les fichiers d'index et de chronologie existants.",
+    "Étape 4: Lire et analyser les fichiers de chronologie globale et les index spécifiques par année (ex: 2014, 2017).",
+    "Étape 5: Croiser les données extraites des emails avec les notes de projets techniques pour valider l'évolution temporelle.",
+    "Étape 6: Rédiger une synthèse cohérente retraçant le parcours, les thématiques dominantes et les changements majeurs."
+  ],
+  "conditions_succes": "Production d'un récit chronologique détaillé et sourcé basé sur l'intégration des archives numériques et des notes personnelles.",
+  "date_creation": "2026-08-24T09:55:13.956213",
+  "derniere_utilisation": "2026-08-24T09:55:13.956213",
+  "succes_compteur": 1
+}

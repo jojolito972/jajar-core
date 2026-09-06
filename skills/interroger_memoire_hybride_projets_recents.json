@@ -1,0 +1,21 @@
+{
+  "id": "interroger_memoire_hybride_projets_recents",
+  "nom": "Interrogation de la mémoire hybride pour l'extraction de projets récents",
+  "declencheurs": [
+    "interroger la mémoire",
+    "projets récents",
+    "recherche second cerveau",
+    "état des projets récents"
+  ],
+  "description": "Procédure d'exploration multi-niveaux du second cerveau combinant recherche vectorielle/hybride, navigation dans l'arborescence et lecture ciblée de documents stratégiques.",
+  "recette_etapes": [
+    "Étape 1: Lancer une recherche hybride dans le second cerveau avec des termes clés axés sur l'actualité et les projets récents.",
+    "Étape 2: Inspecter l'arborescence du second cerveau pour repérer les dossiers de projets ou de notes personnelles stratégiques.",
+    "Étape 3: Lire les fichiers de faits récents ou journaux de réflexions pertinents.",
+    "Étape 4: Exécuter des commandes de lecture directe (shell/cat) sur les fichiers de débats stratégiques ou de projets spécifiques pour en extraire l'intégralité du contexte."
+  ],
+  "conditions_succes": "Les détails complets et actualisés des projets et débats stratégiques récents sont extraits et prêts pour l'analyse.",
+  "date_creation": "2026-08-25T01:29:47.365679",
+  "derniere_utilisation": "2026-08-25T01:29:47.365679",
+  "succes_compteur": 1
+}
